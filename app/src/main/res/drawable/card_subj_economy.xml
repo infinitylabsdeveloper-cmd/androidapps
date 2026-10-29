@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Emerald & Golden Prosperity Skyline -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF047857" />
+                <item android:offset="0.45" android:color="#FF10B981" />
+                <item android:offset="0.78" android:color="#FF0D9488" />
+                <item android:offset="1.0" android:color="#FF064E3B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Growth Sun Glow -->
+    <path android:pathData="M730,165m-170,0a170,170 0,1 1,340 0a170,170 0,1 1,-340 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="730"
+                android:centerY="165"
+                android:gradientRadius="170"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#99FEF3C7" />
+                <item android:offset="0.55" android:color="#44A7F3D0" />
+                <item android:offset="1.0" android:color="#0010B981" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Modern Financial Skyline & Rising Economic Towers (Right) -->
+    <path
+        android:fillColor="#B3064E3B"
+        android:pathData="M490,385v-95h48v95z M555,385v-135h52v135z M625,385v-175h56v175z M700,385v-215h60v215z M780,385v-255h64v255z" />
+    <!-- Upward Golden Economic Growth Trajectory Line -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M460,330 L570,275 L650,235 L735,180 L835,115"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFDE68A" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M835,115 L805,118 L825,142 Z" />
+
+    <!-- Base Terrace -->
+    <path
+        android:fillColor="#E6064E3B"
+        android:pathData="M0,385h960v155h-960z" />
+    <path
+        android:fillColor="#80FDE68A"
+        android:pathData="M0,385h960v3h-960z" />
+</vector>

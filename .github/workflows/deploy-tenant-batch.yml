@@ -1,0 +1,114 @@
+name: Multi-Tenant Batch Deployment (662+ Apps)
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_apps:
+        description: 'Comma-separated App IDs or range (e.g. "APP001,APP002,APP003" or "APP001-APP010")'
+        required: true
+        default: 'APP001,APP002'
+        type: string
+      build_target:
+        description: 'Build Target'
+        required: true
+        default: 'bundle'
+        type: choice
+        options:
+          - bundle # .aab for Google Play Store
+          - assemble # .apk for Testing / Direct Install
+          - both # Both .aab and .apk
+      version_code_override:
+        description: 'Optional Version Code Override'
+        required: false
+        default: ''
+        type: string
+      version_name_override:
+        description: 'Optional Version Name Override'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  build-tenants:
+    name: Batch Build Tenants
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Prepare Signing Keys
+        run: |
+          if [ -n "${{ secrets.KEYSTORE_BASE64 }}" ]; then
+            echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > "$GITHUB_WORKSPACE/my-upload-key.jks"
+            echo "KEYSTORE_PATH=$GITHUB_WORKSPACE/my-upload-key.jks" >> $GITHUB_ENV
+            echo "STORE_PASSWORD=${{ secrets.STORE_PASSWORD }}" >> $GITHUB_ENV
+            echo "KEY_PASSWORD=${{ secrets.KEY_PASSWORD }}" >> $GITHUB_ENV
+          else
+            echo "KEYSTORE_PATH=$GITHUB_WORKSPACE/debug.keystore" >> $GITHUB_ENV
+            echo "STORE_PASSWORD=android" >> $GITHUB_ENV
+            echo "KEY_PASSWORD=android" >> $GITHUB_ENV
+          fi
+
+      - name: Parse Tenant List & Build Releases
+        run: |
+          mkdir -p release_outputs
+
+          INPUT_APPS="${{ github.event.inputs.target_apps }}"
+          TARGET="${{ github.event.inputs.build_target }}"
+          V_CODE="${{ github.event.inputs.version_code_override }}"
+          V_NAME="${{ github.event.inputs.version_name_override }}"
+
+          # Parse ranges or comma separated list
+          IFS=',' read -ra APP_ARRAY <<< "$INPUT_APPS"
+
+          for APP in "${APP_ARRAY[@]}"; do
+            APP_TRIMMED=$(echo "$APP" | xargs)
+            echo "=========================================================="
+            echo "Building Independent App Instance: $APP_TRIMMED"
+            echo "=========================================================="
+
+            EXTRA_ARGS=""
+            if [ -n "$V_CODE" ]; then
+              EXTRA_ARGS="$EXTRA_ARGS -PversionCode=$V_CODE"
+            fi
+            if [ -n "$V_NAME" ]; then
+              EXTRA_ARGS="$EXTRA_ARGS -PversionName=$V_NAME"
+            fi
+
+            # Clean previous outputs before compiling each tenant
+            rm -rf app/build/outputs/apk/release app/build/outputs/bundle/release
+
+            if [ "$TARGET" = "bundle" ] || [ "$TARGET" = "both" ]; then
+              gradle :app:bundleRelease -PappId="$APP_TRIMMED" -PtenantId="$APP_TRIMMED" $EXTRA_ARGS --no-daemon
+              find app/build/outputs/bundle/release -name "*.aab" -exec cp {} "release_outputs/${APP_TRIMMED}_release.aab" \;
+            fi
+
+            if [ "$TARGET" = "assemble" ] || [ "$TARGET" = "both" ]; then
+              gradle :app:assembleRelease -PappId="$APP_TRIMMED" -PtenantId="$APP_TRIMMED" $EXTRA_ARGS --no-daemon
+              find app/build/outputs/apk/release -name "*.apk" -exec cp {} "release_outputs/${APP_TRIMMED}_release.apk" \;
+            fi
+          done
+
+      - name: Archive Tenant Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: multi-tenant-batch-release-bundles
+          path: release_outputs/*
+          retention-days: 14
+
+      - name: Build Summary
+        run: |
+          echo "### 🚀 Multi-Tenant Batch Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "Completed build for: \`${{ github.event.inputs.target_apps }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "#### Generated Deployment Packages:" >> $GITHUB_STEP_SUMMARY
+          ls -lh release_outputs | awk 'NR>1 {print "- **" $9 "** (" $5 ")"}' >> $GITHUB_STEP_SUMMARY

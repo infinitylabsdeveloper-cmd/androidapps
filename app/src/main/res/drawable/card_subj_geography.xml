@@ -1,0 +1,94 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Bright Cyan-Sky to Lush Emerald Scenic Landscape Sky -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0284C7" />
+                <item android:offset="0.38" android:color="#FF0EA5E9" />
+                <item android:offset="0.68" android:color="#FF10B981" />
+                <item android:offset="1.0" android:color="#FF047857" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Morning Sun & Atmospheric Glow Over the Mountains -->
+    <path android:pathData="M750,120m-160,0a160,160 0,1 1,320 0a160,160 0,1 1,-320 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="750"
+                android:centerY="120"
+                android:gradientRadius="160"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#99FEF9C3" />
+                <item android:offset="0.55" android:color="#44BAE6FD" />
+                <item android:offset="1.0" android:color="#000EA5E9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#CCFEFCE8"
+        android:pathData="M750,120m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0" />
+
+    <!-- Majestic Snow-Capped Himalayan & Eastern Ghats Mountain Range -->
+    <path
+        android:fillColor="#800369A1"
+        android:pathData="M0,330 L140,210 L270,295 L430,155 L590,285 L730,140 L900,265 L960,225 L960,420 L0,420 Z" />
+
+    <!-- Snow Caps on High Peaks -->
+    <path
+        android:fillColor="#D9F0F9FF"
+        android:pathData="M430,155 L385,205 L412,198 L430,212 L450,196 L475,205 Z M730,140 L682,195 L710,186 L730,204 L752,185 L782,195 Z M140,210 L110,245 L132,238 L145,248 L168,242 Z" />
+
+    <!-- Midground Lush Emerald Forests & Eastern Ghats Hills -->
+    <path android:pathData="M0,350 C180,275 340,365 530,295 C700,235 840,310 960,275 L960,540 L0,540 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="480"
+                android:startY="260"
+                android:endX="480"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF059669" />
+                <item android:offset="0.55" android:color="#FF047857" />
+                <item android:offset="1.0" android:color="#FF064E3B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Rolling Green Forest Valley Foreground -->
+    <path
+        android:fillColor="#D9065F46"
+        android:pathData="M0,415 C240,370 460,445 710,385 C820,360 900,375 960,390 L960,540 L0,540 Z" />
+
+    <!-- Winding Godavari / Krishna Turquoise River Valley -->
+    <path android:pathData="M530,295 C500,345 610,375 565,425 C525,470 360,495 270,540 L485,540 C560,495 675,465 655,415 C640,370 555,340 560,295 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="530"
+                android:startY="295"
+                android:endX="420"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF7DD3FC" />
+                <item android:offset="0.5" android:color="#FF38BDF8" />
+                <item android:offset="1.0" android:color="#FF0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sunlit River Shimmer Lines -->
+    <path
+        android:fillColor="#99E0F2FE"
+        android:pathData="M545,355h35v3h-35zM575,390h48v3h-48zM540,435h65v4h-65zM450,480h85v4h-85z" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#4A044E" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#86198F" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <!-- Cultural Mandala Ring -->
+    <path android:strokeColor="#F0ABFC" android:strokeAlpha="0.4" android:strokeWidth="1.5" android:pathData="M180,85 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" />
+    <!-- Family Kinship Connected Silhouettes -->
+    <path android:fillColor="#240227" android:pathData="M165,120 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0 M155,145 Q165,135 175,145 L175,190 L155,190 Z" />
+    <path android:fillColor="#2E0431" android:pathData="M195,120 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0 M185,145 Q195,135 205,145 L205,190 L185,190 Z" />
+    <path android:fillColor="#1B011D" android:pathData="M130,135 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0 M122,158 Q130,148 138,158 L138,190 L122,190 Z" />
+    <path android:fillColor="#1B011D" android:pathData="M230,135 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0 M222,158 Q230,148 238,158 L238,190 L222,190 Z" />
+    <path android:fillColor="#150117" android:pathData="M0,180h360v20h-360z" />
+</vector>

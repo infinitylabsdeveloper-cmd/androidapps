@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#451A03" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#9A3412" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <path android:fillColor="#FBBF24" android:fillAlpha="0.2" android:pathData="M180,75 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0" />
+    <!-- Harappan Citadel Walls & Town Planning Silhouette -->
+    <path android:fillColor="#260C03" android:pathData="M30,185 H330 V145 H280 V155 H240 V135 H180 V150 H120 V135 H80 V155 H30 Z" />
+    <!-- Mohenjo-daro Great Bath Water Pool -->
+    <path android:fillColor="#38BDF8" android:fillAlpha="0.45" android:pathData="M110,165 H250 V180 H110 Z" />
+    <!-- Harappan Seal Bull / Unicorn Emblem -->
+    <path android:fillColor="#FDE68A" android:fillAlpha="0.85" android:pathData="M55,100 H85 V130 H55 Z" />
+    <path android:fillColor="#78350F" android:pathData="M60,115 Q70,105 80,118 Q75,125 60,120 Z" />
+    <!-- Vedic Inscription Lines -->
+    <path android:fillColor="#F59E0B" android:pathData="M270,105 H320 V108 H270 Z M270,115 H310 V118 H270 Z M270,125 H315 V128 H270 Z" />
+    <path android:fillColor="#150502" android:pathData="M0,180h360v20h-360z" />
+</vector>

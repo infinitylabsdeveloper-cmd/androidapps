@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Deep Analytical Slate Blue Sky -->
+    <path
+        android:fillColor="#082F49"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#0369A1"
+        android:fillAlpha="0.7"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#0284C7"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- 3D Pie Chart with Exploded Highlighted Slice (Left) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M100,100 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0" />
+    <!-- Exploded Highlight Slice (Gold) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M105,95 L145,70 A45,45 0 0,0 115,55 Z" />
+    <!-- Slice Inner Shadow -->
+    <path
+        android:fillColor="#0C4A6E"
+        android:fillAlpha="0.4"
+        android:pathData="M100,100 L60,120 A45,45 0 0,0 140,120 Z" />
+
+    <!-- Quantitative Bar Graphs (Center & Right) -->
+    <path
+        android:fillColor="#0284C7"
+        android:fillAlpha="0.5"
+        android:pathData="M190,140 H208 V180 H190 Z" />
+    <path
+        android:fillColor="#0284C7"
+        android:fillAlpha="0.7"
+        android:pathData="M216,115 H234 V180 H216 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M242,90 H260 V180 H242 Z" />
+    <path
+        android:fillColor="#7DD3FC"
+        android:pathData="M268,68 H286 V180 H268 Z" />
+    <path
+        android:fillColor="#BAE6FD"
+        android:pathData="M294,48 H312 V180 H294 Z" />
+
+    <!-- Soaring Percentage Trend Line -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="3"
+        android:pathData="M175,150 L200,135 L225,110 L251,85 L277,65 L303,42" />
+    <!-- Trend End Golden Star Point -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M303,42 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0" />
+
+    <!-- Math Symbols Watermark (Sigma, %, Pi) -->
+    <path
+        android:fillColor="#E0F2FE"
+        android:fillAlpha="0.15"
+        android:pathData="M325,100 H345 L335,115 L345,130 H325 V125 H338 L330,115 L338,105 H325 Z" />
+
+    <!-- Analytical Grid Floor Base -->
+    <path
+        android:fillColor="#031D2E"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

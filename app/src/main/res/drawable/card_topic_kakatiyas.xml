@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#4C0519" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#9F1239" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <path android:fillColor="#FBBF24" android:fillAlpha="0.2" android:pathData="M180,75 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0" />
+    <!-- Warangal Kakatiya Kirti Thoranam (Center) -->
+    <path android:fillColor="#24020B" android:pathData="M145,185 H158 V90 H145 Z M202,185 H215 V90 H202 Z" />
+    <path android:fillColor="#4C0519" android:pathData="M135,90 Q180,75 225,90 L225,82 Q180,67 135,82 Z" />
+    <path android:fillColor="#F59E0B" android:pathData="M138,82 Q180,70 222,82 L222,76 Q180,64 138,76 Z" />
+    <path android:fillColor="#FBBF24" android:pathData="M178,64 L180,54 L182,64 Z" />
+    <!-- Ramappa Temple Hydraulic System & Gopuram Spire (Left) -->
+    <path android:fillColor="#320410" android:pathData="M30,185 L50,115 L70,185 Z" />
+    <!-- Vijayanagara Krishnadevaraya Royal Insignia / Stone Chariot (Right) -->
+    <path android:strokeColor="#FBBF24" android:strokeWidth="2.5" android:pathData="M295,150 m-20,0 a20,20 0 1,1 40,0 a20,20 0 1,1 -40,0" />
+    <path android:fillColor="#FDE68A" android:pathData="M295,150 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0" />
+    <path android:fillColor="#150107" android:pathData="M0,180h360v20h-360z" />
+</vector>

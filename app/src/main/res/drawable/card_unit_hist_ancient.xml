@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Ancient Brick Citadel & Indus Terracotta Sky -->
+    <path
+        android:fillColor="#431407"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#9A3412"
+        android:fillAlpha="0.8"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#D97706"
+        android:fillAlpha="0.3"
+        android:pathData="M0,60 Q180,20 360,70 L360,200 L0,200 Z" />
+
+    <!-- Vedic Sunrise Glow -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.25"
+        android:pathData="M180,80 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0" />
+
+    <!-- Indus Valley Brick Citadel & Mohenjo-daro Granary Silhouette -->
+    <path
+        android:fillColor="#240B04"
+        android:pathData="M20,185 L20,140 H60 V150 H100 V135 H150 V145 H180 V125 H230 V145 H280 V135 H340 V185 Z" />
+
+    <!-- Ancient Pillars & Torana Gate (Sanchi/Mauryan style) -->
+    <path
+        android:fillColor="#431407"
+        android:pathData="M110,145 H120 V85 H110 Z M150,145 H160 V85 H150 Z" />
+    <!-- Triple Torana Architraves -->
+    <path
+        android:fillColor="#D97706"
+        android:fillAlpha="0.8"
+        android:pathData="M100,85 H170 V81 H100 Z M95,95 H175 V91 H95 Z M90,105 H180 V101 H90 Z" />
+
+    <!-- Great Bath Brick Steps Pattern (Foreground Center) -->
+    <path
+        android:fillColor="#150502"
+        android:pathData="M70,185 H290 V175 H280 V168 H270 V162 H90 V168 H80 V175 H70 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:fillAlpha="0.4"
+        android:pathData="M95,164 H265 V174 H95 Z" />
+
+    <!-- Sacred Vedic Fire Altar / Homa Kunda Silhouette (Right) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M295,165 L315,165 L310,175 L300,175 Z" />
+    <!-- Flame Tongue -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M305,145 Q302,158 305,165 Q308,158 305,145 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M305,152 Q303,160 305,165 Q307,160 305,152 Z" />
+
+    <!-- Ground Stratum -->
+    <path
+        android:fillColor="#120401"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

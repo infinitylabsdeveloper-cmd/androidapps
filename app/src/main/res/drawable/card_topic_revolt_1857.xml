@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#1E293B" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#991B1B" android:fillAlpha="0.7" android:pathData="M0,0h360v110L0,160z" />
+    <path android:fillColor="#EA580C" android:fillAlpha="0.25" android:pathData="M0,40 Q180,10 360,50 L360,200 L0,200 Z" />
+    <!-- 1857 Historic Revolt Fort Ramparts & Cannon (Center) -->
+    <path android:fillColor="#0F172A" android:pathData="M40,185 H320 V135 H280 V145 H240 V130 H180 V145 H120 V130 H80 V145 H40 Z" />
+    <!-- Historic Cannon Barrel -->
+    <path android:fillColor="#475569" android:pathData="M165,150 L205,135 L208,144 L168,159 Z" />
+    <path android:fillColor="#334155" android:pathData="M178,162 m-10,0 a10,10 0 1,1 20,0 a10,10 0 1,1 -20,0" />
+    <!-- Freedom Scroll & Torch of Revolution (Left) -->
+    <path android:fillColor="#FBBF24" android:pathData="M70,110 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+    <path android:fillColor="#EF4444" android:pathData="M70,98 Q66,106 70,110 Q74,106 70,98 Z" />
+    <!-- Early INC Foundation Banner (Right) -->
+    <path android:fillColor="#FDE68A" android:fillAlpha="0.8" android:pathData="M260,110 H305 V140 H260 Z" />
+    <path android:fillColor="#1E293B" android:pathData="M268,120 H298 V123 H268 Z M268,128 H295 V131 H268 Z" />
+    <path android:fillColor="#080D15" android:pathData="M0,180h360v20h-360z" />
+</vector>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Ancient Andhra Dynasties Ruby Red Sky -->
+    <path
+        android:fillColor="#4C0519"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#881337"
+        android:fillAlpha="0.8"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#E11D48"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Radiant Temple Glory Glow -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.2"
+        android:pathData="M180,85 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <!-- Amaravati Buddhist Stupa Relief (Left) -->
+    <path
+        android:fillColor="#320410"
+        android:pathData="M30,185 H110 V175 H30 Z" />
+    <path
+        android:fillColor="#3D0615"
+        android:pathData="M40,175 C40,130 100,130 100,175 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.6"
+        android:pathData="M65,130 H75 V123 H65 Z M69,123 H71 V112 H69 Z" />
+
+    <!-- Warangal Kakatiya Thoranam Stone Gateway (Center) -->
+    <path
+        android:fillColor="#24020B"
+        android:pathData="M165,185 H178 V95 H165 Z M222,185 H235 V95 H222 Z" />
+    <!-- Intricate Architraves -->
+    <path
+        android:fillColor="#4C0519"
+        android:pathData="M155,95 Q200,80 245,95 L245,86 Q200,71 155,86 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:fillAlpha="0.75"
+        android:pathData="M158,86 Q200,74 242,86 L242,80 Q200,68 158,80 Z" />
+
+    <!-- Vijayanagara Hampi Stone Chariot Wheels (Right) -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2.5"
+        android:pathData="M295,155 m-22,0 a22,22 0 1,1 44,0 a22,22 0 1,1 -44,0" />
+    <path
+        android:fillColor="#881337"
+        android:pathData="M295,155 m-10,0 a10,10 0 1,1 20,0 a10,10 0 1,1 -20,0" />
+    <!-- Spokes -->
+    <path
+        android:strokeColor="#FDE68A"
+        android:strokeWidth="1.5"
+        android:pathData="M295,133 V177 M273,155 H317" />
+
+    <!-- Royal Dynasty Heritage Ground -->
+    <path
+        android:fillColor="#150107"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

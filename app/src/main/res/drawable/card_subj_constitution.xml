@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Royal Indigo & Golden Dawn over Indian Parliament / Constitutional Rotunda -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF3730A3" />
+                <item android:offset="0.48" android:color="#FF4F46E5" />
+                <item android:offset="0.80" android:color="#FF6366F1" />
+                <item android:offset="1.0" android:color="#FF1E1B4B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Golden Constitutional Glow -->
+    <path android:pathData="M690,175m-175,0a175,175 0,1 1,350 0a175,175 0,1 1,-350 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="690"
+                android:centerY="175"
+                android:gradientRadius="175"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#88FEF3C7" />
+                <item android:offset="0.55" android:color="#33C7D2FE" />
+                <item android:offset="1.0" android:color="#004F46E5" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Grand Sansad / Supreme Court Classical Rotunda & Dome (Right) -->
+    <path
+        android:fillColor="#D9312E81"
+        android:pathData="M565,250 C565,160 815,160 815,250 Z" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M686,142h8v40h-8z M674,180h32v6h-32z" />
+    <!-- Classical Colonnade Pillars -->
+    <path
+        android:fillColor="#E6312E81"
+        android:pathData="M490,250h400v20h-400z M505,380h370v16h-370z" />
+    <path
+        android:fillColor="#B3E0E7FF"
+        android:pathData="M525,270h14v110h-14z M565,270h14v110h-14z M605,270h14v110h-14z M645,270h14v110h-14z M685,270h14v110h-14z M725,270h14v110h-14z M765,270h14v110h-14z M805,270h14v110h-14z M845,270h14v110h-14z" />
+
+    <!-- Base Terrace -->
+    <path
+        android:fillColor="#E61E1B4B"
+        android:pathData="M0,385h960v155h-960z" />
+    <path
+        android:fillColor="#80FDE68A"
+        android:pathData="M0,385h960v3h-960z" />
+</vector>

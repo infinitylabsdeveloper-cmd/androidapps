@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Vivid Teal-Blue Aerospace & Innovation Horizon -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0369A1" />
+                <item android:offset="0.45" android:color="#FF0891B2" />
+                <item android:offset="0.78" android:color="#FF06B6D4" />
+                <item android:offset="1.0" android:color="#FF164E63" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Orbital Glow & Sriharikota Launchpad Silhouette (Right) -->
+    <path android:pathData="M720,180m-170,0a170,170 0,1 1,340 0a170,170 0,1 1,-340 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="720"
+                android:centerY="180"
+                android:gradientRadius="170"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#88CFFAFE" />
+                <item android:offset="0.55" android:color="#3367E8F9" />
+                <item android:offset="1.0" android:color="#000891B2" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Planetary Orbit Rings -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M620,235 A130,55 0 1,1 860,195 A130,55 0 1,1 620,235"
+        android:strokeWidth="3"
+        android:strokeColor="#99A5F3FC" />
+
+    <!-- ISRO Launch Tower & Rocket Silhouette -->
+    <path
+        android:fillColor="#E6F0F9FF"
+        android:pathData="M725,115 L740,155 L740,340 L710,340 L710,155 Z" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M700,340 L710,295 L710,340 Z M750,340 L740,295 L740,340 Z" />
+    <path
+        android:fillColor="#99083344"
+        android:pathData="M655,385v-180h18v180z M673,230h35v8h-35z M673,280h35v8h-35z" />
+
+    <!-- Base Terrace -->
+    <path
+        android:fillColor="#E6083344"
+        android:pathData="M0,385h960v155h-960z" />
+    <path
+        android:fillColor="#8067E8F9"
+        android:pathData="M0,385h960v3h-960z" />
+</vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#3B0764" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#7E22CE" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <!-- Protective Shield of Social Justice & Empowerment -->
+    <path android:fillColor="#581C87" android:fillAlpha="0.6" android:pathData="M150,50 L210,50 Q210,105 180,135 Q150,105 150,50 Z" />
+    <path android:strokeColor="#F0ABFC" android:strokeWidth="2" android:pathData="M152,52 L208,52 Q208,103 180,132 Q152,103 152,52 Z" />
+    <!-- Uplifting Female Silhouette / Women Empowerment Symbol inside Shield -->
+    <path android:fillColor="#FBBF24" android:pathData="M180,75 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0" />
+    <path android:fillColor="#FDE68A" android:pathData="M170,95 Q180,85 190,95 L186,118 H174 Z" />
+    <!-- Scales of Social Equality (Right) -->
+    <path android:strokeColor="#FBBF24" android:strokeWidth="2" android:pathData="M290,65 V125 M265,80 H315" />
+    <path android:fillColor="#FBBF24" android:fillAlpha="0.5" android:pathData="M260,100 H270 L265,90 Z M310,100 H320 L315,90 Z" />
+    <!-- Open Book of Child Education (Left) -->
+    <path android:fillColor="#F3E8FF" android:fillAlpha="0.8" android:pathData="M50,120 L75,108 L100,120 L75,128 Z" />
+    <path android:fillColor="#1F0437" android:pathData="M0,180h360v20h-360z" />
+</vector>

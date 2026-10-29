@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Coastal Sky & Harbor Blue -->
+    <path
+        android:fillColor="#022C22"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#047857"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#10B981"
+        android:fillAlpha="0.25"
+        android:pathData="M0,60 Q180,10 360,70 L360,200 L0,200 Z" />
+
+    <!-- Bay of Bengal Waters (Lower Half) -->
+    <path
+        android:fillColor="#065F46"
+        android:pathData="M0,120 Q180,110 360,120 L360,200 L0,200 Z" />
+    <path
+        android:fillColor="#059669"
+        android:fillAlpha="0.4"
+        android:pathData="M0,135 Q180,125 360,135 L360,200 L0,200 Z" />
+
+    <!-- Eastern Ghats Coastal Hills (Dolphin's Nose Vizag) -->
+    <path
+        android:fillColor="#064E3B"
+        android:pathData="M0,140 Q60,70 140,110 T250,115 L250,200 L0,200 Z" />
+    <!-- Lighthouse on Headland -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M115,80 H125 L128,105 H112 Z" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M116,88 H124 V94 H116 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.8"
+        android:pathData="M120,78 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+
+    <!-- Visakhapatnam Port Container Cargo Vessel -->
+    <!-- Ship Hull -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M180,165 L190,148 H290 L305,165 Z" />
+    <!-- Ship Red Waterline Strip -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M185,165 H300 V168 H185 Z" />
+    <!-- Ship Containers (Stacked Colored Blocks) -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M205,138 H225 V148 H205 Z M248,138 H268 V148 H248 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M226,138 H246 V148 H226 Z M205,127 H225 V137 H205 Z" />
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M226,127 H246 V137 H226 Z M269,138 H289 V148 H269 Z" />
+
+    <!-- Gantry Port Cranes Silhouette (Far Right Pier) -->
+    <path
+        android:strokeColor="#022C22"
+        android:strokeWidth="2.5"
+        android:pathData="M315,185 L325,125 L355,110 M330,125 H360" />
+
+    <!-- Fertile Delta Paddy Fields Layer (Foreground Left) -->
+    <path
+        android:fillColor="#022C22"
+        android:pathData="M0,168 Q90,150 180,175 T360,165 L360,200 L0,200 Z" />
+</vector>

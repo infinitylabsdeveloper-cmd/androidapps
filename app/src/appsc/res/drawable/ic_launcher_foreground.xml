@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Golden Ring -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,24C37.4,24 24,37.4 24,54C24,70.6 37.4,84 54,84C70.6,84 84,70.6 84,54C84,37.4 70.6,24 54,24ZM54,78C40.7,78 30,67.3 30,54C30,40.7 40.7,30 54,30C67.3,30 78,40.7 78,54C78,67.3 67.3,78 54,78Z"/>
+    <!-- Pillars / Governance Emblem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,68h32v4h-32zM40,64h28v2h-28zM42,42h4v20h-4zM52,42h4v20h-4zM62,42h4v20h-4zM38,38h32v2h-32zM54,32L36,38h36Z"/>
+</vector>

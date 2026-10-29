@@ -1,0 +1,105 @@
+{
+  "entities": {
+    "LeaderboardEntry": {
+      "title": "LeaderboardEntry",
+      "description": "Candidate ranking record within a specific exam and period slice",
+      "type": "object",
+      "properties": {
+        "entryId": { "type": "string", "description": "Unique entry identifier" },
+        "userId": { "type": "string", "description": "User identifier matching auth uid" },
+        "examId": { "type": "string", "description": "Exam syllabus stream identifier" },
+        "targetExam": { "type": "string", "description": "Human-readable exam name" },
+        "periodType": { "type": "string", "description": "GLOBAL, WEEKLY, MONTHLY, or SUBJECT" },
+        "periodKey": { "type": "string", "description": "Period key (e.g. all-time, 2026-W40)" },
+        "district": { "type": "string", "description": "Candidate AP district" },
+        "subjectId": { "type": "string", "description": "Optional syllabus subject filter" },
+        "displayName": { "type": "string", "description": "Candidate display name" },
+        "avatarColorHex": { "type": "number", "description": "Dynamic avatar color" },
+        "avatarUrl": { "type": "string", "description": "Avatar image URL" },
+        "privacyMode": { "type": "string", "description": "PUBLIC, DISPLAY_NAME, or ANONYMOUS" },
+        "xp": { "type": "number", "description": "Accumulated XP" },
+        "leaderboardScore": { "type": "number", "description": "Composite score" },
+        "rank": { "type": "number", "description": "Current verified rank" },
+        "previousRank": { "type": "number", "description": "Prior rank for delta" },
+        "rankDelta": { "type": "number", "description": "Position shift" },
+        "accuracyPercentage": { "type": "number", "description": "Accuracy percentage" },
+        "testsCompleted": { "type": "number", "description": "Completed tests count" },
+        "questionsAttempted": { "type": "number", "description": "Attempted questions count" },
+        "streakDays": { "type": "number", "description": "Current streak in days" },
+        "league": { "type": "string", "description": "Competitive league tier" },
+        "badges": { "type": "array", "description": "Unlocked badge IDs" },
+        "isVerified": { "type": "boolean", "description": "Verification flag" },
+        "lastVerifiedTxId": { "type": "string", "description": "Idempotency key" },
+        "updatedAt": { "type": "number", "description": "Last update timestamp" }
+      },
+      "required": ["entryId", "userId", "examId", "displayName", "xp", "rank"]
+    },
+    "UserStats": {
+      "title": "UserStats",
+      "description": "Cumulative candidate telemetry and progress statistics",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "description": "User identifier matching auth uid" },
+        "examId": { "type": "string", "description": "Exam stream identifier" },
+        "totalXp": { "type": "number", "description": "Lifetime XP" },
+        "testsCompleted": { "type": "number", "description": "Total tests completed" },
+        "questionsAttempted": { "type": "number", "description": "Total questions attempted" },
+        "correctCount": { "type": "number", "description": "Total correct answers" },
+        "accuracyPercentage": { "type": "number", "description": "Overall accuracy percentage" },
+        "streakDays": { "type": "number", "description": "Current consecutive streak days" },
+        "highestStreak": { "type": "number", "description": "Personal record streak days" },
+        "currentLeague": { "type": "string", "description": "Current league tier" },
+        "updatedAt": { "type": "number", "description": "Update timestamp" }
+      },
+      "required": ["userId", "examId", "totalXp"]
+    },
+    "CulturalCarouselItem": {
+      "title": "CulturalCarouselItem",
+      "description": "Cultural heritage or motivational carousel slide for candidates",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Item identifier" },
+        "title": { "type": "string", "description": "Card title" },
+        "subtitle": { "type": "string", "description": "Card subtitle" },
+        "description": { "type": "string", "description": "Detailed description" },
+        "imageUrl": { "type": "string", "description": "Image asset or network URL" },
+        "category": { "type": "string", "description": "Topic or culture category" },
+        "actionUrl": { "type": "string", "description": "Optional navigation target" },
+        "order": { "type": "number", "description": "Display order index" },
+        "isActive": { "type": "boolean", "description": "Active visibility flag" }
+      },
+      "required": ["id", "title"]
+    },
+    "XpTransaction": {
+      "title": "XpTransaction",
+      "description": "Audit record for awarded XP preventing double crediting",
+      "type": "object",
+      "properties": {
+        "txId": { "type": "string", "description": "Transaction identifier" },
+        "userId": { "type": "string", "description": "Candidate user identifier" },
+        "amount": { "type": "number", "description": "XP amount awarded" },
+        "reason": { "type": "string", "description": "Source of XP (e.g. test_completion, daily_streak)" },
+        "timestamp": { "type": "number", "description": "Timestamp when awarded" }
+      },
+      "required": ["txId", "userId", "amount"]
+    }
+  },
+  "firestore": {
+    "/leaderboard_entries/{entryId}": {
+      "schema": "LeaderboardEntry",
+      "description": "Multi-period leaderboard standings collection"
+    },
+    "/user_stats/{statsId}": {
+      "schema": "UserStats",
+      "description": "Candidate lifetime performance and stats"
+    },
+    "/cultural_carousel/{itemId}": {
+      "schema": "CulturalCarouselItem",
+      "description": "Cultural discovery and syllabus highlights"
+    },
+    "/xp_transactions/{txId}": {
+      "schema": "XpTransaction",
+      "description": "XP transactions log for candidate achievements and tests"
+    }
+  }
+}

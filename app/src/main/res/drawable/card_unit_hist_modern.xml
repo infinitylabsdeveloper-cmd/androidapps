@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Freedom Twilight & Tricolor Glow Sky -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#C2410C"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v90L0,140z" />
+    <path
+        android:fillColor="#047857"
+        android:fillAlpha="0.4"
+        android:pathData="M0,130 Q180,90 360,130 L360,200 L0,200 Z" />
+
+    <!-- Freedom Dawn Sun Aura -->
+    <path
+        android:fillColor="#FDE68A"
+        android:fillAlpha="0.3"
+        android:pathData="M180,75 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <!-- 1857 Revolt Historic Fort Ramparts (Left Background) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M20,185 L20,120 H50 V130 H80 V120 H110 V130 H140 V185 Z" />
+    <!-- Fort Cannon Silhouette -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M55,145 L80,135 L82,142 L57,152 Z" />
+    <path
+        android:fillColor="#334155"
+        android:pathData="M65,155 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0" />
+
+    <!-- Gandhi Charkha Spinning Wheel Silhouette (Center Foreground) -->
+    <!-- Large Drive Wheel -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2.5"
+        android:pathData="M195,135 m-30,0 a30,30 0 1,1 60,0 a30,30 0 1,1 -60,0" />
+    <!-- Wheel Spokes -->
+    <path
+        android:strokeColor="#FDE68A"
+        android:strokeAlpha="0.7"
+        android:strokeWidth="1.5"
+        android:pathData="M195,105 L195,165 M165,135 L225,135 M174,114 L216,156 M174,156 L216,114" />
+    <!-- Charkha Wooden Base Beam -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M150,165 H270 V172 H150 Z" />
+    <!-- Spindle (Right Side) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M255,150 H265 V165 H255 Z" />
+
+    <!-- Indian Tricolor Flag Billowing on Mast (Right) -->
+    <!-- Mast -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M310,185 H314 V60 H310 Z" />
+    <!-- Finial -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M312,56 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <!-- Saffron Stripe -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M314,62 Q335,55 355,62 L355,72 Q335,65 314,72 Z" />
+    <!-- White Stripe -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M314,72 Q335,65 355,72 L355,82 Q335,75 314,82 Z" />
+    <!-- Green Stripe -->
+    <path
+        android:fillColor="#138808"
+        android:pathData="M314,82 Q335,75 355,82 L355,92 Q335,85 314,92 Z" />
+    <!-- Navy Blue Ashoka Chakra in Flag -->
+    <path
+        android:fillColor="#000080"
+        android:pathData="M335,77 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0" />
+
+    <!-- Freedom Path Ground -->
+    <path
+        android:fillColor="#090D14"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

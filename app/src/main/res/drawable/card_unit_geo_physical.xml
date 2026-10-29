@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Mountain Atmosphere Teal Sky -->
+    <path
+        android:fillColor="#042F2E"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#0D9488"
+        android:fillAlpha="0.7"
+        android:pathData="M0,0h360v110L0,160z" />
+    <path
+        android:fillColor="#14B8A6"
+        android:fillAlpha="0.25"
+        android:pathData="M0,40 Q180,90 360,30 L360,160 L0,160 Z" />
+
+    <!-- Monsoon Clouds in Upper Sky -->
+    <path
+        android:fillColor="#CCFBF1"
+        android:fillAlpha="0.3"
+        android:pathData="M40,40 Q55,25 75,35 Q95,20 115,35 Q135,28 145,45 H40 Z M220,35 Q240,20 260,30 Q280,18 300,32 H220 Z" />
+
+    <!-- Towering Himalayan Mountain Peaks (Snow-capped) -->
+    <path
+        android:fillColor="#0F766E"
+        android:pathData="M0,150 L60,50 L120,140 L180,35 L250,145 L310,60 L360,135 L360,200 L0,200 Z" />
+    <!-- White Snowcaps -->
+    <path
+        android:fillColor="#F0FDFA"
+        android:fillAlpha="0.9"
+        android:pathData="M60,50 L45,78 L75,78 Z M180,35 L160,70 L180,65 L200,70 Z M310,60 L295,85 L325,85 Z" />
+
+    <!-- Peninsular Plateau Tableland (Middle Ridge) -->
+    <path
+        android:fillColor="#115E59"
+        android:pathData="M0,150 Q100,110 200,135 T360,125 L360,200 L0,200 Z" />
+
+    <!-- River Drainage System (Broad Meandering Stream) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:fillAlpha="0.75"
+        android:pathData="M160,135 Q200,150 170,170 Q140,190 220,200 L240,200 Q160,190 190,170 Q220,150 175,135 Z" />
+
+    <!-- Foreground Terrestrial Horizon -->
+    <path
+        android:fillColor="#042F2E"
+        android:pathData="M0,175 Q90,160 180,178 T360,168 L360,200 L0,200 Z" />
+</vector>

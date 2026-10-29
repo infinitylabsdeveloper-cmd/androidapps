@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#4C0519" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#881337" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <!-- Amaravati Stupa Anda & Marble Relief Carving -->
+    <path android:fillColor="#320410" android:pathData="M40,185 H130 V175 H40 Z" />
+    <path android:fillColor="#400615" android:pathData="M50,175 C50,125 120,125 120,175 Z" />
+    <path android:fillColor="#FBBF24" android:pathData="M80,125 H90 V118 H80 Z M84,118 H86 V108 H84 Z" />
+    <!-- Satavahana Maritime Trading Galley / Two-masted Ship on Bay of Bengal (Center-Right) -->
+    <path android:fillColor="#831843" android:fillAlpha="0.4" android:pathData="M160,165 Q240,150 320,165 L320,200 L160,200 Z" />
+    <path android:fillColor="#FDE68A" android:pathData="M185,165 L195,150 H275 L285,165 Z" />
+    <!-- Two Masts with Sails -->
+    <path android:fillColor="#78350F" android:pathData="M215,150 H218 V105 H215 Z M250,150 H253 V105 H250 Z" />
+    <path android:fillColor="#FFFBEB" android:pathData="M218,108 L238,125 L218,135 Z M253,108 L273,125 L253,135 Z" />
+    <!-- Buddhist Dharmachakra Wheel in Upper Sky -->
+    <path android:strokeColor="#FBBF24" android:strokeWidth="1.5" android:pathData="M305,65 m-15,0 a15,15 0 1,1 30,0 a15,15 0 1,1 -30,0" />
+    <path android:fillColor="#150107" android:pathData="M0,180h360v20h-360z" />
+</vector>

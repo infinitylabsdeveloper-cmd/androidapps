@@ -1,0 +1,4636 @@
+[
+  {
+    "id": "andhra-pradesh-ap-tet-en",
+    "name": "AP TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.aptet.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-tet-te",
+    "name": "AP TET (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.aptet.te"
+  },
+  {
+    "id": "andhra-pradesh-ap-dsc-en",
+    "name": "AP DSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.apdsc.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-dsc-te",
+    "name": "AP DSC (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.apdsc.te"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-1-en",
+    "name": "APPSC Group 1",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup1.en"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-1-te",
+    "name": "APPSC Group 1 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup1.te"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-2-en",
+    "name": "APPSC Group 2",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup2.en"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-2-te",
+    "name": "APPSC Group 2 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup2.te"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-3-en",
+    "name": "APPSC Group 3",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup3.en"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-3-te",
+    "name": "APPSC Group 3 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup3.te"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-4-en",
+    "name": "APPSC Group 4",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup4.en"
+  },
+  {
+    "id": "andhra-pradesh-appsc-group-4-te",
+    "name": "APPSC Group 4 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.appscgroup4.te"
+  },
+  {
+    "id": "andhra-pradesh-ap-police-constable-en",
+    "name": "AP Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.appoliceconstable.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-police-constable-te",
+    "name": "AP Police Constable (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.appoliceconstable.te"
+  },
+  {
+    "id": "andhra-pradesh-ap-police-si-en",
+    "name": "AP Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.appolicesi.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-police-si-te",
+    "name": "AP Police SI (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.appolicesi.te"
+  },
+  {
+    "id": "andhra-pradesh-ap-forest-beat-officer-en",
+    "name": "AP Forest Beat Officer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.apforestbeatofficer.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-forest-beat-officer-te",
+    "name": "AP Forest Beat Officer (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.apforestbeatofficer.te"
+  },
+  {
+    "id": "andhra-pradesh-ap-forest-section-officer-en",
+    "name": "AP Forest Section Officer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.apforestsectionofficer.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-forest-section-officer-te",
+    "name": "AP Forest Section Officer (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.apforestsectionofficer.te"
+  },
+  {
+    "id": "andhra-pradesh-ap-grama-ward-sachivalayam-en",
+    "name": "AP Grama/Ward Sachivalayam",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.apgramawardsachivalayam.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-grama-ward-sachivalayam-te",
+    "name": "AP Grama/Ward Sachivalayam (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.apgramawardsachivalayam.te"
+  },
+  {
+    "id": "andhra-pradesh-ap-panchayat-secretary-en",
+    "name": "AP Panchayat Secretary",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.andhrapradesh.appanchayatsecretary.en"
+  },
+  {
+    "id": "andhra-pradesh-ap-panchayat-secretary-te",
+    "name": "AP Panchayat Secretary (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.andhrapradesh.appanchayatsecretary.te"
+  },
+  {
+    "id": "telangana-tg-tet-en",
+    "name": "TG TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.tgtet.en"
+  },
+  {
+    "id": "telangana-tg-tet-te",
+    "name": "TG TET (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.tgtet.te"
+  },
+  {
+    "id": "telangana-tg-dsc-en",
+    "name": "TG DSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.tgdsc.en"
+  },
+  {
+    "id": "telangana-tg-dsc-te",
+    "name": "TG DSC (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.tgdsc.te"
+  },
+  {
+    "id": "telangana-tgpsc-group-1-en",
+    "name": "TGPSC Group 1",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.tgpscgroup1.en"
+  },
+  {
+    "id": "telangana-tgpsc-group-1-te",
+    "name": "TGPSC Group 1 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.tgpscgroup1.te"
+  },
+  {
+    "id": "telangana-tgpsc-group-2-en",
+    "name": "TGPSC Group 2",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.tgpscgroup2.en"
+  },
+  {
+    "id": "telangana-tgpsc-group-2-te",
+    "name": "TGPSC Group 2 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.tgpscgroup2.te"
+  },
+  {
+    "id": "telangana-tgpsc-group-3-en",
+    "name": "TGPSC Group 3",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.tgpscgroup3.en"
+  },
+  {
+    "id": "telangana-tgpsc-group-3-te",
+    "name": "TGPSC Group 3 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.tgpscgroup3.te"
+  },
+  {
+    "id": "telangana-tgpsc-group-4-en",
+    "name": "TGPSC Group 4",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.tgpscgroup4.en"
+  },
+  {
+    "id": "telangana-tgpsc-group-4-te",
+    "name": "TGPSC Group 4 (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.tgpscgroup4.te"
+  },
+  {
+    "id": "telangana-telangana-police-constable-en",
+    "name": "Telangana Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.telanganapoliceconstable.en"
+  },
+  {
+    "id": "telangana-telangana-police-constable-te",
+    "name": "Telangana Police Constable (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.telanganapoliceconstable.te"
+  },
+  {
+    "id": "telangana-telangana-police-si-en",
+    "name": "Telangana Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.telanganapolicesi.en"
+  },
+  {
+    "id": "telangana-telangana-police-si-te",
+    "name": "Telangana Police SI (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.telanganapolicesi.te"
+  },
+  {
+    "id": "telangana-telangana-forest-beat-officer-en",
+    "name": "Telangana Forest Beat Officer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.telanganaforestbeatofficer.en"
+  },
+  {
+    "id": "telangana-telangana-forest-beat-officer-te",
+    "name": "Telangana Forest Beat Officer (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.telanganaforestbeatofficer.te"
+  },
+  {
+    "id": "telangana-telangana-forest-section-officer-en",
+    "name": "Telangana Forest Section Officer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.telangana.telanganaforestsectionofficer.en"
+  },
+  {
+    "id": "telangana-telangana-forest-section-officer-te",
+    "name": "Telangana Forest Section Officer (Telugu)",
+    "medium": "Telugu",
+    "languageCode": "te",
+    "package": "com.independent.examapps.telangana.telanganaforestsectionofficer.te"
+  },
+  {
+    "id": "karnataka-kartet-en",
+    "name": "KARTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.kartet.en"
+  },
+  {
+    "id": "karnataka-kartet-kn",
+    "name": "KARTET (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.kartet.kn"
+  },
+  {
+    "id": "karnataka-karnataka-teacher-recruitment-en",
+    "name": "Karnataka Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakateacherrecruitment.en"
+  },
+  {
+    "id": "karnataka-karnataka-teacher-recruitment-kn",
+    "name": "Karnataka Teacher Recruitment (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakateacherrecruitment.kn"
+  },
+  {
+    "id": "karnataka-kpsc-group-a-en",
+    "name": "KPSC Group A",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.kpscgroupa.en"
+  },
+  {
+    "id": "karnataka-kpsc-group-a-kn",
+    "name": "KPSC Group A (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.kpscgroupa.kn"
+  },
+  {
+    "id": "karnataka-kpsc-group-b-en",
+    "name": "KPSC Group B",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.kpscgroupb.en"
+  },
+  {
+    "id": "karnataka-kpsc-group-b-kn",
+    "name": "KPSC Group B (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.kpscgroupb.kn"
+  },
+  {
+    "id": "karnataka-kpsc-group-c-en",
+    "name": "KPSC Group C",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.kpscgroupc.en"
+  },
+  {
+    "id": "karnataka-kpsc-group-c-kn",
+    "name": "KPSC Group C (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.kpscgroupc.kn"
+  },
+  {
+    "id": "karnataka-karnataka-police-constable-en",
+    "name": "Karnataka Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakapoliceconstable.en"
+  },
+  {
+    "id": "karnataka-karnataka-police-constable-kn",
+    "name": "Karnataka Police Constable (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakapoliceconstable.kn"
+  },
+  {
+    "id": "karnataka-karnataka-police-si-en",
+    "name": "Karnataka Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakapolicesi.en"
+  },
+  {
+    "id": "karnataka-karnataka-police-si-kn",
+    "name": "Karnataka Police SI (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakapolicesi.kn"
+  },
+  {
+    "id": "karnataka-karnataka-forest-guard-en",
+    "name": "Karnataka Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakaforestguard.en"
+  },
+  {
+    "id": "karnataka-karnataka-forest-guard-kn",
+    "name": "Karnataka Forest Guard (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakaforestguard.kn"
+  },
+  {
+    "id": "karnataka-karnataka-forest-officer-en",
+    "name": "Karnataka Forest Officer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakaforestofficer.en"
+  },
+  {
+    "id": "karnataka-karnataka-forest-officer-kn",
+    "name": "Karnataka Forest Officer (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakaforestofficer.kn"
+  },
+  {
+    "id": "karnataka-karnataka-pdo-en",
+    "name": "Karnataka PDO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakapdo.en"
+  },
+  {
+    "id": "karnataka-karnataka-pdo-kn",
+    "name": "Karnataka PDO (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakapdo.kn"
+  },
+  {
+    "id": "karnataka-karnataka-fda-en",
+    "name": "Karnataka FDA",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakafda.en"
+  },
+  {
+    "id": "karnataka-karnataka-fda-kn",
+    "name": "Karnataka FDA (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakafda.kn"
+  },
+  {
+    "id": "karnataka-karnataka-sda-en",
+    "name": "Karnataka SDA",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.karnataka.karnatakasda.en"
+  },
+  {
+    "id": "karnataka-karnataka-sda-kn",
+    "name": "Karnataka SDA (Kannada)",
+    "medium": "Kannada",
+    "languageCode": "kn",
+    "package": "com.independent.examapps.karnataka.karnatakasda.kn"
+  },
+  {
+    "id": "tamil-nadu-tntet-en",
+    "name": "TNTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tntet.en"
+  },
+  {
+    "id": "tamil-nadu-tntet-ta",
+    "name": "TNTET (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tntet.ta"
+  },
+  {
+    "id": "tamil-nadu-tn-trb-en",
+    "name": "TN TRB",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tntrb.en"
+  },
+  {
+    "id": "tamil-nadu-tn-trb-ta",
+    "name": "TN TRB (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tntrb.ta"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-1-en",
+    "name": "TNPSC Group 1",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup1.en"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-1-ta",
+    "name": "TNPSC Group 1 (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup1.ta"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-2-en",
+    "name": "TNPSC Group 2",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup2.en"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-2-ta",
+    "name": "TNPSC Group 2 (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup2.ta"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-2a-en",
+    "name": "TNPSC Group 2A",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup2a.en"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-2a-ta",
+    "name": "TNPSC Group 2A (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup2a.ta"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-4-en",
+    "name": "TNPSC Group 4",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup4.en"
+  },
+  {
+    "id": "tamil-nadu-tnpsc-group-4-ta",
+    "name": "TNPSC Group 4 (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tnpscgroup4.ta"
+  },
+  {
+    "id": "tamil-nadu-tnusrb-police-constable-en",
+    "name": "TNUSRB Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tnusrbpoliceconstable.en"
+  },
+  {
+    "id": "tamil-nadu-tnusrb-police-constable-ta",
+    "name": "TNUSRB Police Constable (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tnusrbpoliceconstable.ta"
+  },
+  {
+    "id": "tamil-nadu-tnusrb-police-si-en",
+    "name": "TNUSRB Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tnusrbpolicesi.en"
+  },
+  {
+    "id": "tamil-nadu-tnusrb-police-si-ta",
+    "name": "TNUSRB Police SI (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tnusrbpolicesi.ta"
+  },
+  {
+    "id": "tamil-nadu-tamil-nadu-forest-guard-en",
+    "name": "Tamil Nadu Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tamilnaduforestguard.en"
+  },
+  {
+    "id": "tamil-nadu-tamil-nadu-forest-guard-ta",
+    "name": "Tamil Nadu Forest Guard (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tamilnaduforestguard.ta"
+  },
+  {
+    "id": "tamil-nadu-tamil-nadu-forest-watcher-en",
+    "name": "Tamil Nadu Forest Watcher",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tamilnadu.tamilnaduforestwatcher.en"
+  },
+  {
+    "id": "tamil-nadu-tamil-nadu-forest-watcher-ta",
+    "name": "Tamil Nadu Forest Watcher (Tamil)",
+    "medium": "Tamil",
+    "languageCode": "ta",
+    "package": "com.independent.examapps.tamilnadu.tamilnaduforestwatcher.ta"
+  },
+  {
+    "id": "kerala-ktet-en",
+    "name": "KTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.ktet.en"
+  },
+  {
+    "id": "kerala-ktet-ml",
+    "name": "KTET (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.ktet.ml"
+  },
+  {
+    "id": "kerala-kerala-psc-degree-en",
+    "name": "Kerala PSC Degree",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralapscdegree.en"
+  },
+  {
+    "id": "kerala-kerala-psc-degree-ml",
+    "name": "Kerala PSC Degree (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralapscdegree.ml"
+  },
+  {
+    "id": "kerala-kerala-psc-plus-two-en",
+    "name": "Kerala PSC Plus Two",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralapscplustwo.en"
+  },
+  {
+    "id": "kerala-kerala-psc-plus-two-ml",
+    "name": "Kerala PSC Plus Two (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralapscplustwo.ml"
+  },
+  {
+    "id": "kerala-kerala-psc-10th-level-en",
+    "name": "Kerala PSC 10th Level",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralapsc10thlevel.en"
+  },
+  {
+    "id": "kerala-kerala-psc-10th-level-ml",
+    "name": "Kerala PSC 10th Level (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralapsc10thlevel.ml"
+  },
+  {
+    "id": "kerala-kerala-psc-ldc-en",
+    "name": "Kerala PSC LDC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralapscldc.en"
+  },
+  {
+    "id": "kerala-kerala-psc-ldc-ml",
+    "name": "Kerala PSC LDC (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralapscldc.ml"
+  },
+  {
+    "id": "kerala-kerala-psc-lgs-en",
+    "name": "Kerala PSC LGS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralapsclgs.en"
+  },
+  {
+    "id": "kerala-kerala-psc-lgs-ml",
+    "name": "Kerala PSC LGS (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralapsclgs.ml"
+  },
+  {
+    "id": "kerala-kerala-police-constable-en",
+    "name": "Kerala Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralapoliceconstable.en"
+  },
+  {
+    "id": "kerala-kerala-police-constable-ml",
+    "name": "Kerala Police Constable (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralapoliceconstable.ml"
+  },
+  {
+    "id": "kerala-kerala-police-si-en",
+    "name": "Kerala Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralapolicesi.en"
+  },
+  {
+    "id": "kerala-kerala-police-si-ml",
+    "name": "Kerala Police SI (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralapolicesi.ml"
+  },
+  {
+    "id": "kerala-kerala-forest-guard-en",
+    "name": "Kerala Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralaforestguard.en"
+  },
+  {
+    "id": "kerala-kerala-forest-guard-ml",
+    "name": "Kerala Forest Guard (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralaforestguard.ml"
+  },
+  {
+    "id": "kerala-kerala-excise-officer-en",
+    "name": "Kerala Excise Officer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.kerala.keralaexciseofficer.en"
+  },
+  {
+    "id": "kerala-kerala-excise-officer-ml",
+    "name": "Kerala Excise Officer (Malayalam)",
+    "medium": "Malayalam",
+    "languageCode": "ml",
+    "package": "com.independent.examapps.kerala.keralaexciseofficer.ml"
+  },
+  {
+    "id": "maharashtra-maha-tet-en",
+    "name": "MAHA TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.mahatet.en"
+  },
+  {
+    "id": "maharashtra-maha-tet-mr",
+    "name": "MAHA TET (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.mahatet.mr"
+  },
+  {
+    "id": "maharashtra-tait-en",
+    "name": "TAIT",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.tait.en"
+  },
+  {
+    "id": "maharashtra-tait-mr",
+    "name": "TAIT (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.tait.mr"
+  },
+  {
+    "id": "maharashtra-maharashtra-teacher-recruitment-en",
+    "name": "Maharashtra Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.maharashtrateacherrecruitment.en"
+  },
+  {
+    "id": "maharashtra-maharashtra-teacher-recruitment-mr",
+    "name": "Maharashtra Teacher Recruitment (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.maharashtrateacherrecruitment.mr"
+  },
+  {
+    "id": "maharashtra-mpsc-rajyaseva-en",
+    "name": "MPSC Rajyaseva",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.mpscrajyaseva.en"
+  },
+  {
+    "id": "maharashtra-mpsc-rajyaseva-mr",
+    "name": "MPSC Rajyaseva (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.mpscrajyaseva.mr"
+  },
+  {
+    "id": "maharashtra-mpsc-group-b-en",
+    "name": "MPSC Group B",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.mpscgroupb.en"
+  },
+  {
+    "id": "maharashtra-mpsc-group-b-mr",
+    "name": "MPSC Group B (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.mpscgroupb.mr"
+  },
+  {
+    "id": "maharashtra-mpsc-group-c-en",
+    "name": "MPSC Group C",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.mpscgroupc.en"
+  },
+  {
+    "id": "maharashtra-mpsc-group-c-mr",
+    "name": "MPSC Group C (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.mpscgroupc.mr"
+  },
+  {
+    "id": "maharashtra-maharashtra-police-constable-en",
+    "name": "Maharashtra Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.maharashtrapoliceconstable.en"
+  },
+  {
+    "id": "maharashtra-maharashtra-police-constable-mr",
+    "name": "Maharashtra Police Constable (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.maharashtrapoliceconstable.mr"
+  },
+  {
+    "id": "maharashtra-maharashtra-police-si-en",
+    "name": "Maharashtra Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.maharashtrapolicesi.en"
+  },
+  {
+    "id": "maharashtra-maharashtra-police-si-mr",
+    "name": "Maharashtra Police SI (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.maharashtrapolicesi.mr"
+  },
+  {
+    "id": "maharashtra-maharashtra-talathi-en",
+    "name": "Maharashtra Talathi",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.maharashtratalathi.en"
+  },
+  {
+    "id": "maharashtra-maharashtra-talathi-mr",
+    "name": "Maharashtra Talathi (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.maharashtratalathi.mr"
+  },
+  {
+    "id": "maharashtra-maharashtra-forest-guard-en",
+    "name": "Maharashtra Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.maharashtra.maharashtraforestguard.en"
+  },
+  {
+    "id": "maharashtra-maharashtra-forest-guard-mr",
+    "name": "Maharashtra Forest Guard (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.maharashtra.maharashtraforestguard.mr"
+  },
+  {
+    "id": "gujarat-gujarat-tet-en",
+    "name": "Gujarat TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gujarattet.en"
+  },
+  {
+    "id": "gujarat-gujarat-tet-gu",
+    "name": "Gujarat TET (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gujarattet.gu"
+  },
+  {
+    "id": "gujarat-gujarat-tat-en",
+    "name": "Gujarat TAT",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gujarattat.en"
+  },
+  {
+    "id": "gujarat-gujarat-tat-gu",
+    "name": "Gujarat TAT (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gujarattat.gu"
+  },
+  {
+    "id": "gujarat-gpsc-class-1-en",
+    "name": "GPSC Class 1",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gpscclass1.en"
+  },
+  {
+    "id": "gujarat-gpsc-class-1-gu",
+    "name": "GPSC Class 1 (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gpscclass1.gu"
+  },
+  {
+    "id": "gujarat-gpsc-class-2-en",
+    "name": "GPSC Class 2",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gpscclass2.en"
+  },
+  {
+    "id": "gujarat-gpsc-class-2-gu",
+    "name": "GPSC Class 2 (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gpscclass2.gu"
+  },
+  {
+    "id": "gujarat-gsssb-en",
+    "name": "GSSSB",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gsssb.en"
+  },
+  {
+    "id": "gujarat-gsssb-gu",
+    "name": "GSSSB (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gsssb.gu"
+  },
+  {
+    "id": "gujarat-gpssb-en",
+    "name": "GPSSB",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gpssb.en"
+  },
+  {
+    "id": "gujarat-gpssb-gu",
+    "name": "GPSSB (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gpssb.gu"
+  },
+  {
+    "id": "gujarat-gujarat-police-constable-en",
+    "name": "Gujarat Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gujaratpoliceconstable.en"
+  },
+  {
+    "id": "gujarat-gujarat-police-constable-gu",
+    "name": "Gujarat Police Constable (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gujaratpoliceconstable.gu"
+  },
+  {
+    "id": "gujarat-gujarat-psi-en",
+    "name": "Gujarat PSI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gujaratpsi.en"
+  },
+  {
+    "id": "gujarat-gujarat-psi-gu",
+    "name": "Gujarat PSI (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gujaratpsi.gu"
+  },
+  {
+    "id": "gujarat-gujarat-forest-guard-en",
+    "name": "Gujarat Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gujaratforestguard.en"
+  },
+  {
+    "id": "gujarat-gujarat-forest-guard-gu",
+    "name": "Gujarat Forest Guard (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gujaratforestguard.gu"
+  },
+  {
+    "id": "gujarat-gujarat-revenue-talati-en",
+    "name": "Gujarat Revenue Talati",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.gujarat.gujaratrevenuetalati.en"
+  },
+  {
+    "id": "gujarat-gujarat-revenue-talati-gu",
+    "name": "Gujarat Revenue Talati (Gujarati)",
+    "medium": "Gujarati",
+    "languageCode": "gu",
+    "package": "com.independent.examapps.gujarat.gujaratrevenuetalati.gu"
+  },
+  {
+    "id": "rajasthan-reet-en",
+    "name": "REET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.reet.en"
+  },
+  {
+    "id": "rajasthan-reet-hi",
+    "name": "REET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.reet.hi"
+  },
+  {
+    "id": "rajasthan-rajasthan-teacher-recruitment-en",
+    "name": "Rajasthan Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rajasthanteacherrecruitment.en"
+  },
+  {
+    "id": "rajasthan-rajasthan-teacher-recruitment-hi",
+    "name": "Rajasthan Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rajasthanteacherrecruitment.hi"
+  },
+  {
+    "id": "rajasthan-rpsc-ras-en",
+    "name": "RPSC RAS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rpscras.en"
+  },
+  {
+    "id": "rajasthan-rpsc-ras-hi",
+    "name": "RPSC RAS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rpscras.hi"
+  },
+  {
+    "id": "rajasthan-rpsc-school-lecturer-en",
+    "name": "RPSC School Lecturer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rpscschoollecturer.en"
+  },
+  {
+    "id": "rajasthan-rpsc-school-lecturer-hi",
+    "name": "RPSC School Lecturer (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rpscschoollecturer.hi"
+  },
+  {
+    "id": "rajasthan-rpsc-senior-teacher-en",
+    "name": "RPSC Senior Teacher",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rpscseniorteacher.en"
+  },
+  {
+    "id": "rajasthan-rpsc-senior-teacher-hi",
+    "name": "RPSC Senior Teacher (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rpscseniorteacher.hi"
+  },
+  {
+    "id": "rajasthan-rpsc-assistant-professor-en",
+    "name": "RPSC Assistant Professor",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rpscassistantprofessor.en"
+  },
+  {
+    "id": "rajasthan-rpsc-assistant-professor-hi",
+    "name": "RPSC Assistant Professor (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rpscassistantprofessor.hi"
+  },
+  {
+    "id": "rajasthan-rssb-cet-en",
+    "name": "RSSB CET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rssbcet.en"
+  },
+  {
+    "id": "rajasthan-rssb-cet-hi",
+    "name": "RSSB CET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rssbcet.hi"
+  },
+  {
+    "id": "rajasthan-rajasthan-patwari-en",
+    "name": "Rajasthan Patwari",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rajasthanpatwari.en"
+  },
+  {
+    "id": "rajasthan-rajasthan-patwari-hi",
+    "name": "Rajasthan Patwari (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rajasthanpatwari.hi"
+  },
+  {
+    "id": "rajasthan-rajasthan-police-constable-en",
+    "name": "Rajasthan Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rajasthanpoliceconstable.en"
+  },
+  {
+    "id": "rajasthan-rajasthan-police-constable-hi",
+    "name": "Rajasthan Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rajasthanpoliceconstable.hi"
+  },
+  {
+    "id": "rajasthan-rajasthan-police-si-en",
+    "name": "Rajasthan Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rajasthanpolicesi.en"
+  },
+  {
+    "id": "rajasthan-rajasthan-police-si-hi",
+    "name": "Rajasthan Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rajasthanpolicesi.hi"
+  },
+  {
+    "id": "rajasthan-rajasthan-forest-guard-en",
+    "name": "Rajasthan Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.rajasthan.rajasthanforestguard.en"
+  },
+  {
+    "id": "rajasthan-rajasthan-forest-guard-hi",
+    "name": "Rajasthan Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.rajasthan.rajasthanforestguard.hi"
+  },
+  {
+    "id": "uttar-pradesh-uptet-en",
+    "name": "UPTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.uptet.en"
+  },
+  {
+    "id": "uttar-pradesh-uptet-hi",
+    "name": "UPTET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.uptet.hi"
+  },
+  {
+    "id": "uttar-pradesh-up-teacher-recruitment-en",
+    "name": "UP Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.upteacherrecruitment.en"
+  },
+  {
+    "id": "uttar-pradesh-up-teacher-recruitment-hi",
+    "name": "UP Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.upteacherrecruitment.hi"
+  },
+  {
+    "id": "uttar-pradesh-uppsc-pcs-en",
+    "name": "UPPSC PCS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.uppscpcs.en"
+  },
+  {
+    "id": "uttar-pradesh-uppsc-pcs-hi",
+    "name": "UPPSC PCS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.uppscpcs.hi"
+  },
+  {
+    "id": "uttar-pradesh-uppsc-ro-aro-en",
+    "name": "UPPSC RO/ARO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.uppscroaro.en"
+  },
+  {
+    "id": "uttar-pradesh-uppsc-ro-aro-hi",
+    "name": "UPPSC RO/ARO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.uppscroaro.hi"
+  },
+  {
+    "id": "uttar-pradesh-upsssc-pet-en",
+    "name": "UPSSSC PET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.upssscpet.en"
+  },
+  {
+    "id": "uttar-pradesh-upsssc-pet-hi",
+    "name": "UPSSSC PET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.upssscpet.hi"
+  },
+  {
+    "id": "uttar-pradesh-upsssc-junior-assistant-en",
+    "name": "UPSSSC Junior Assistant",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.upssscjuniorassistant.en"
+  },
+  {
+    "id": "uttar-pradesh-upsssc-junior-assistant-hi",
+    "name": "UPSSSC Junior Assistant (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.upssscjuniorassistant.hi"
+  },
+  {
+    "id": "uttar-pradesh-upsssc-lekhpal-en",
+    "name": "UPSSSC Lekhpal",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.upsssclekhpal.en"
+  },
+  {
+    "id": "uttar-pradesh-upsssc-lekhpal-hi",
+    "name": "UPSSSC Lekhpal (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.upsssclekhpal.hi"
+  },
+  {
+    "id": "uttar-pradesh-up-police-constable-en",
+    "name": "UP Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.uppoliceconstable.en"
+  },
+  {
+    "id": "uttar-pradesh-up-police-constable-hi",
+    "name": "UP Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.uppoliceconstable.hi"
+  },
+  {
+    "id": "uttar-pradesh-up-police-si-en",
+    "name": "UP Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.uppolicesi.en"
+  },
+  {
+    "id": "uttar-pradesh-up-police-si-hi",
+    "name": "UP Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.uppolicesi.hi"
+  },
+  {
+    "id": "uttar-pradesh-up-forest-guard-en",
+    "name": "UP Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarpradesh.upforestguard.en"
+  },
+  {
+    "id": "uttar-pradesh-up-forest-guard-hi",
+    "name": "UP Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarpradesh.upforestguard.hi"
+  },
+  {
+    "id": "bihar-btet-en",
+    "name": "BTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.btet.en"
+  },
+  {
+    "id": "bihar-btet-hi",
+    "name": "BTET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.btet.hi"
+  },
+  {
+    "id": "bihar-stet-en",
+    "name": "STET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.stet.en"
+  },
+  {
+    "id": "bihar-stet-hi",
+    "name": "STET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.stet.hi"
+  },
+  {
+    "id": "bihar-bpsc-teacher-recruitment-en",
+    "name": "BPSC Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.bpscteacherrecruitment.en"
+  },
+  {
+    "id": "bihar-bpsc-teacher-recruitment-hi",
+    "name": "BPSC Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.bpscteacherrecruitment.hi"
+  },
+  {
+    "id": "bihar-bpsc-tre-en",
+    "name": "BPSC TRE",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.bpsctre.en"
+  },
+  {
+    "id": "bihar-bpsc-tre-hi",
+    "name": "BPSC TRE (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.bpsctre.hi"
+  },
+  {
+    "id": "bihar-bpsc-cce-en",
+    "name": "BPSC CCE",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.bpsccce.en"
+  },
+  {
+    "id": "bihar-bpsc-cce-hi",
+    "name": "BPSC CCE (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.bpsccce.hi"
+  },
+  {
+    "id": "bihar-bssc-cgl-en",
+    "name": "BSSC CGL",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.bssccgl.en"
+  },
+  {
+    "id": "bihar-bssc-cgl-hi",
+    "name": "BSSC CGL (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.bssccgl.hi"
+  },
+  {
+    "id": "bihar-bssc-inter-level-en",
+    "name": "BSSC Inter Level",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.bsscinterlevel.en"
+  },
+  {
+    "id": "bihar-bssc-inter-level-hi",
+    "name": "BSSC Inter Level (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.bsscinterlevel.hi"
+  },
+  {
+    "id": "bihar-bihar-police-constable-en",
+    "name": "Bihar Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.biharpoliceconstable.en"
+  },
+  {
+    "id": "bihar-bihar-police-constable-hi",
+    "name": "Bihar Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.biharpoliceconstable.hi"
+  },
+  {
+    "id": "bihar-bihar-police-si-en",
+    "name": "Bihar Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.biharpolicesi.en"
+  },
+  {
+    "id": "bihar-bihar-police-si-hi",
+    "name": "Bihar Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.biharpolicesi.hi"
+  },
+  {
+    "id": "bihar-bihar-forest-guard-en",
+    "name": "Bihar Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.bihar.biharforestguard.en"
+  },
+  {
+    "id": "bihar-bihar-forest-guard-hi",
+    "name": "Bihar Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.bihar.biharforestguard.hi"
+  },
+  {
+    "id": "odisha-otet-en",
+    "name": "OTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.otet.en"
+  },
+  {
+    "id": "odisha-otet-or",
+    "name": "OTET (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.otet.or"
+  },
+  {
+    "id": "odisha-osstet-en",
+    "name": "OSSTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.osstet.en"
+  },
+  {
+    "id": "odisha-osstet-or",
+    "name": "OSSTET (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.osstet.or"
+  },
+  {
+    "id": "odisha-odisha-teacher-recruitment-en",
+    "name": "Odisha Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.odishateacherrecruitment.en"
+  },
+  {
+    "id": "odisha-odisha-teacher-recruitment-or",
+    "name": "Odisha Teacher Recruitment (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.odishateacherrecruitment.or"
+  },
+  {
+    "id": "odisha-opsc-oas-en",
+    "name": "OPSC OAS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.opscoas.en"
+  },
+  {
+    "id": "odisha-opsc-oas-or",
+    "name": "OPSC OAS (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.opscoas.or"
+  },
+  {
+    "id": "odisha-opsc-group-b-en",
+    "name": "OPSC Group B",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.opscgroupb.en"
+  },
+  {
+    "id": "odisha-opsc-group-b-or",
+    "name": "OPSC Group B (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.opscgroupb.or"
+  },
+  {
+    "id": "odisha-ossc-cgl-en",
+    "name": "OSSC CGL",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.ossccgl.en"
+  },
+  {
+    "id": "odisha-ossc-cgl-or",
+    "name": "OSSC CGL (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.ossccgl.or"
+  },
+  {
+    "id": "odisha-ossc-chsl-en",
+    "name": "OSSC CHSL",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.osscchsl.en"
+  },
+  {
+    "id": "odisha-ossc-chsl-or",
+    "name": "OSSC CHSL (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.osscchsl.or"
+  },
+  {
+    "id": "odisha-osssc-ri-en",
+    "name": "OSSSC RI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.ossscri.en"
+  },
+  {
+    "id": "odisha-osssc-ri-or",
+    "name": "OSSSC RI (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.ossscri.or"
+  },
+  {
+    "id": "odisha-osssc-ari-en",
+    "name": "OSSSC ARI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.ossscari.en"
+  },
+  {
+    "id": "odisha-osssc-ari-or",
+    "name": "OSSSC ARI (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.ossscari.or"
+  },
+  {
+    "id": "odisha-osssc-amin-en",
+    "name": "OSSSC Amin",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.ossscamin.en"
+  },
+  {
+    "id": "odisha-osssc-amin-or",
+    "name": "OSSSC Amin (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.ossscamin.or"
+  },
+  {
+    "id": "odisha-odisha-police-constable-en",
+    "name": "Odisha Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.odishapoliceconstable.en"
+  },
+  {
+    "id": "odisha-odisha-police-constable-or",
+    "name": "Odisha Police Constable (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.odishapoliceconstable.or"
+  },
+  {
+    "id": "odisha-odisha-police-si-en",
+    "name": "Odisha Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.odishapolicesi.en"
+  },
+  {
+    "id": "odisha-odisha-police-si-or",
+    "name": "Odisha Police SI (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.odishapolicesi.or"
+  },
+  {
+    "id": "odisha-odisha-forest-guard-en",
+    "name": "Odisha Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.odishaforestguard.en"
+  },
+  {
+    "id": "odisha-odisha-forest-guard-or",
+    "name": "Odisha Forest Guard (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.odishaforestguard.or"
+  },
+  {
+    "id": "odisha-odisha-forest-ranger-en",
+    "name": "Odisha Forest Ranger",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.odisha.odishaforestranger.en"
+  },
+  {
+    "id": "odisha-odisha-forest-ranger-or",
+    "name": "Odisha Forest Ranger (Odia)",
+    "medium": "Odia",
+    "languageCode": "or",
+    "package": "com.independent.examapps.odisha.odishaforestranger.or"
+  },
+  {
+    "id": "west-bengal-wb-tet-en",
+    "name": "WB TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.wbtet.en"
+  },
+  {
+    "id": "west-bengal-wb-tet-bn",
+    "name": "WB TET (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.wbtet.bn"
+  },
+  {
+    "id": "west-bengal-wb-primary-teacher-en",
+    "name": "WB Primary Teacher",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.wbprimaryteacher.en"
+  },
+  {
+    "id": "west-bengal-wb-primary-teacher-bn",
+    "name": "WB Primary Teacher (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.wbprimaryteacher.bn"
+  },
+  {
+    "id": "west-bengal-wb-slst-en",
+    "name": "WB SLST",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.wbslst.en"
+  },
+  {
+    "id": "west-bengal-wb-slst-bn",
+    "name": "WB SLST (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.wbslst.bn"
+  },
+  {
+    "id": "west-bengal-wbpsc-wbcs-en",
+    "name": "WBPSC WBCS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.wbpscwbcs.en"
+  },
+  {
+    "id": "west-bengal-wbpsc-wbcs-bn",
+    "name": "WBPSC WBCS (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.wbpscwbcs.bn"
+  },
+  {
+    "id": "west-bengal-wbpsc-miscellaneous-en",
+    "name": "WBPSC Miscellaneous",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.wbpscmiscellaneous.en"
+  },
+  {
+    "id": "west-bengal-wbpsc-miscellaneous-bn",
+    "name": "WBPSC Miscellaneous (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.wbpscmiscellaneous.bn"
+  },
+  {
+    "id": "west-bengal-wbpsc-clerkship-en",
+    "name": "WBPSC Clerkship",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.wbpscclerkship.en"
+  },
+  {
+    "id": "west-bengal-wbpsc-clerkship-bn",
+    "name": "WBPSC Clerkship (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.wbpscclerkship.bn"
+  },
+  {
+    "id": "west-bengal-west-bengal-police-constable-en",
+    "name": "West Bengal Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.westbengalpoliceconstable.en"
+  },
+  {
+    "id": "west-bengal-west-bengal-police-constable-bn",
+    "name": "West Bengal Police Constable (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.westbengalpoliceconstable.bn"
+  },
+  {
+    "id": "west-bengal-west-bengal-police-si-en",
+    "name": "West Bengal Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.westbengalpolicesi.en"
+  },
+  {
+    "id": "west-bengal-west-bengal-police-si-bn",
+    "name": "West Bengal Police SI (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.westbengalpolicesi.bn"
+  },
+  {
+    "id": "west-bengal-west-bengal-forest-guard-en",
+    "name": "West Bengal Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.westbengalforestguard.en"
+  },
+  {
+    "id": "west-bengal-west-bengal-forest-guard-bn",
+    "name": "West Bengal Forest Guard (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.westbengalforestguard.bn"
+  },
+  {
+    "id": "west-bengal-west-bengal-excise-constable-en",
+    "name": "West Bengal Excise Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.westbengal.westbengalexciseconstable.en"
+  },
+  {
+    "id": "west-bengal-west-bengal-excise-constable-bn",
+    "name": "West Bengal Excise Constable (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.westbengal.westbengalexciseconstable.bn"
+  },
+  {
+    "id": "madhya-pradesh-mp-tet-en",
+    "name": "MP TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mptet.en"
+  },
+  {
+    "id": "madhya-pradesh-mp-tet-hi",
+    "name": "MP TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mptet.hi"
+  },
+  {
+    "id": "madhya-pradesh-mp-teacher-recruitment-en",
+    "name": "MP Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mpteacherrecruitment.en"
+  },
+  {
+    "id": "madhya-pradesh-mp-teacher-recruitment-hi",
+    "name": "MP Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mpteacherrecruitment.hi"
+  },
+  {
+    "id": "madhya-pradesh-mppsc-state-service-en",
+    "name": "MPPSC State Service",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mppscstateservice.en"
+  },
+  {
+    "id": "madhya-pradesh-mppsc-state-service-hi",
+    "name": "MPPSC State Service (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mppscstateservice.hi"
+  },
+  {
+    "id": "madhya-pradesh-mppsc-forest-service-en",
+    "name": "MPPSC Forest Service",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mppscforestservice.en"
+  },
+  {
+    "id": "madhya-pradesh-mppsc-forest-service-hi",
+    "name": "MPPSC Forest Service (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mppscforestservice.hi"
+  },
+  {
+    "id": "madhya-pradesh-mpesb-group-1-en",
+    "name": "MPESB Group 1",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mpesbgroup1.en"
+  },
+  {
+    "id": "madhya-pradesh-mpesb-group-1-hi",
+    "name": "MPESB Group 1 (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mpesbgroup1.hi"
+  },
+  {
+    "id": "madhya-pradesh-mpesb-group-2-en",
+    "name": "MPESB Group 2",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mpesbgroup2.en"
+  },
+  {
+    "id": "madhya-pradesh-mpesb-group-2-hi",
+    "name": "MPESB Group 2 (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mpesbgroup2.hi"
+  },
+  {
+    "id": "madhya-pradesh-mpesb-group-4-en",
+    "name": "MPESB Group 4",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mpesbgroup4.en"
+  },
+  {
+    "id": "madhya-pradesh-mpesb-group-4-hi",
+    "name": "MPESB Group 4 (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mpesbgroup4.hi"
+  },
+  {
+    "id": "madhya-pradesh-mp-police-constable-en",
+    "name": "MP Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mppoliceconstable.en"
+  },
+  {
+    "id": "madhya-pradesh-mp-police-constable-hi",
+    "name": "MP Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mppoliceconstable.hi"
+  },
+  {
+    "id": "madhya-pradesh-mp-police-si-en",
+    "name": "MP Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mppolicesi.en"
+  },
+  {
+    "id": "madhya-pradesh-mp-police-si-hi",
+    "name": "MP Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mppolicesi.hi"
+  },
+  {
+    "id": "madhya-pradesh-mp-patwari-en",
+    "name": "MP Patwari",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mppatwari.en"
+  },
+  {
+    "id": "madhya-pradesh-mp-patwari-hi",
+    "name": "MP Patwari (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mppatwari.hi"
+  },
+  {
+    "id": "madhya-pradesh-mp-forest-guard-en",
+    "name": "MP Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.madhyapradesh.mpforestguard.en"
+  },
+  {
+    "id": "madhya-pradesh-mp-forest-guard-hi",
+    "name": "MP Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.madhyapradesh.mpforestguard.hi"
+  },
+  {
+    "id": "chhattisgarh-cg-tet-en",
+    "name": "CG TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.cgtet.en"
+  },
+  {
+    "id": "chhattisgarh-cg-tet-hi",
+    "name": "CG TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.cgtet.hi"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-teacher-recruitment-en",
+    "name": "Chhattisgarh Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhteacherrecruitment.en"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-teacher-recruitment-hi",
+    "name": "Chhattisgarh Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhteacherrecruitment.hi"
+  },
+  {
+    "id": "chhattisgarh-cgpsc-state-service-en",
+    "name": "CGPSC State Service",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.cgpscstateservice.en"
+  },
+  {
+    "id": "chhattisgarh-cgpsc-state-service-hi",
+    "name": "CGPSC State Service (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.cgpscstateservice.hi"
+  },
+  {
+    "id": "chhattisgarh-cg-vyapam-en",
+    "name": "CG Vyapam",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.cgvyapam.en"
+  },
+  {
+    "id": "chhattisgarh-cg-vyapam-hi",
+    "name": "CG Vyapam (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.cgvyapam.hi"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-police-constable-en",
+    "name": "Chhattisgarh Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhpoliceconstable.en"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-police-constable-hi",
+    "name": "Chhattisgarh Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhpoliceconstable.hi"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-police-si-en",
+    "name": "Chhattisgarh Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhpolicesi.en"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-police-si-hi",
+    "name": "Chhattisgarh Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhpolicesi.hi"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-forest-guard-en",
+    "name": "Chhattisgarh Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhforestguard.en"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-forest-guard-hi",
+    "name": "Chhattisgarh Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhforestguard.hi"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-patwari-en",
+    "name": "Chhattisgarh Patwari",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhpatwari.en"
+  },
+  {
+    "id": "chhattisgarh-chhattisgarh-patwari-hi",
+    "name": "Chhattisgarh Patwari (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.chhattisgarh.chhattisgarhpatwari.hi"
+  },
+  {
+    "id": "jharkhand-jtet-en",
+    "name": "JTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jtet.en"
+  },
+  {
+    "id": "jharkhand-jtet-hi",
+    "name": "JTET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jtet.hi"
+  },
+  {
+    "id": "jharkhand-jharkhand-teacher-recruitment-en",
+    "name": "Jharkhand Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jharkhandteacherrecruitment.en"
+  },
+  {
+    "id": "jharkhand-jharkhand-teacher-recruitment-hi",
+    "name": "Jharkhand Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jharkhandteacherrecruitment.hi"
+  },
+  {
+    "id": "jharkhand-jpsc-civil-services-en",
+    "name": "JPSC Civil Services",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jpsccivilservices.en"
+  },
+  {
+    "id": "jharkhand-jpsc-civil-services-hi",
+    "name": "JPSC Civil Services (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jpsccivilservices.hi"
+  },
+  {
+    "id": "jharkhand-jssc-cgl-en",
+    "name": "JSSC CGL",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jssccgl.en"
+  },
+  {
+    "id": "jharkhand-jssc-cgl-hi",
+    "name": "JSSC CGL (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jssccgl.hi"
+  },
+  {
+    "id": "jharkhand-jssc-inter-level-en",
+    "name": "JSSC Inter Level",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jsscinterlevel.en"
+  },
+  {
+    "id": "jharkhand-jssc-inter-level-hi",
+    "name": "JSSC Inter Level (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jsscinterlevel.hi"
+  },
+  {
+    "id": "jharkhand-jharkhand-police-constable-en",
+    "name": "Jharkhand Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jharkhandpoliceconstable.en"
+  },
+  {
+    "id": "jharkhand-jharkhand-police-constable-hi",
+    "name": "Jharkhand Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jharkhandpoliceconstable.hi"
+  },
+  {
+    "id": "jharkhand-jharkhand-police-si-en",
+    "name": "Jharkhand Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jharkhandpolicesi.en"
+  },
+  {
+    "id": "jharkhand-jharkhand-police-si-hi",
+    "name": "Jharkhand Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jharkhandpolicesi.hi"
+  },
+  {
+    "id": "jharkhand-jharkhand-forest-guard-en",
+    "name": "Jharkhand Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.jharkhand.jharkhandforestguard.en"
+  },
+  {
+    "id": "jharkhand-jharkhand-forest-guard-hi",
+    "name": "Jharkhand Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.jharkhand.jharkhandforestguard.hi"
+  },
+  {
+    "id": "haryana-htet-en",
+    "name": "HTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.htet.en"
+  },
+  {
+    "id": "haryana-htet-hi",
+    "name": "HTET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.htet.hi"
+  },
+  {
+    "id": "haryana-haryana-teacher-recruitment-en",
+    "name": "Haryana Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.haryanateacherrecruitment.en"
+  },
+  {
+    "id": "haryana-haryana-teacher-recruitment-hi",
+    "name": "Haryana Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.haryanateacherrecruitment.hi"
+  },
+  {
+    "id": "haryana-hpsc-hcs-en",
+    "name": "HPSC HCS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.hpschcs.en"
+  },
+  {
+    "id": "haryana-hpsc-hcs-hi",
+    "name": "HPSC HCS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.hpschcs.hi"
+  },
+  {
+    "id": "haryana-hssc-cet-en",
+    "name": "HSSC CET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.hssccet.en"
+  },
+  {
+    "id": "haryana-hssc-cet-hi",
+    "name": "HSSC CET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.hssccet.hi"
+  },
+  {
+    "id": "haryana-hssc-group-c-en",
+    "name": "HSSC Group C",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.hsscgroupc.en"
+  },
+  {
+    "id": "haryana-hssc-group-c-hi",
+    "name": "HSSC Group C (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.hsscgroupc.hi"
+  },
+  {
+    "id": "haryana-hssc-group-d-en",
+    "name": "HSSC Group D",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.hsscgroupd.en"
+  },
+  {
+    "id": "haryana-hssc-group-d-hi",
+    "name": "HSSC Group D (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.hsscgroupd.hi"
+  },
+  {
+    "id": "haryana-haryana-police-constable-en",
+    "name": "Haryana Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.haryanapoliceconstable.en"
+  },
+  {
+    "id": "haryana-haryana-police-constable-hi",
+    "name": "Haryana Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.haryanapoliceconstable.hi"
+  },
+  {
+    "id": "haryana-haryana-police-si-en",
+    "name": "Haryana Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.haryanapolicesi.en"
+  },
+  {
+    "id": "haryana-haryana-police-si-hi",
+    "name": "Haryana Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.haryanapolicesi.hi"
+  },
+  {
+    "id": "haryana-haryana-patwari-en",
+    "name": "Haryana Patwari",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.haryanapatwari.en"
+  },
+  {
+    "id": "haryana-haryana-patwari-hi",
+    "name": "Haryana Patwari (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.haryanapatwari.hi"
+  },
+  {
+    "id": "haryana-haryana-forest-guard-en",
+    "name": "Haryana Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.haryana.haryanaforestguard.en"
+  },
+  {
+    "id": "haryana-haryana-forest-guard-hi",
+    "name": "Haryana Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.haryana.haryanaforestguard.hi"
+  },
+  {
+    "id": "punjab-pstet-en",
+    "name": "PSTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.pstet.en"
+  },
+  {
+    "id": "punjab-pstet-pa",
+    "name": "PSTET (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.pstet.pa"
+  },
+  {
+    "id": "punjab-punjab-teacher-recruitment-en",
+    "name": "Punjab Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.punjabteacherrecruitment.en"
+  },
+  {
+    "id": "punjab-punjab-teacher-recruitment-pa",
+    "name": "Punjab Teacher Recruitment (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.punjabteacherrecruitment.pa"
+  },
+  {
+    "id": "punjab-ppsc-pcs-en",
+    "name": "PPSC PCS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.ppscpcs.en"
+  },
+  {
+    "id": "punjab-ppsc-pcs-pa",
+    "name": "PPSC PCS (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.ppscpcs.pa"
+  },
+  {
+    "id": "punjab-psssb-en",
+    "name": "PSSSB",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.psssb.en"
+  },
+  {
+    "id": "punjab-psssb-pa",
+    "name": "PSSSB (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.psssb.pa"
+  },
+  {
+    "id": "punjab-punjab-police-constable-en",
+    "name": "Punjab Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.punjabpoliceconstable.en"
+  },
+  {
+    "id": "punjab-punjab-police-constable-pa",
+    "name": "Punjab Police Constable (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.punjabpoliceconstable.pa"
+  },
+  {
+    "id": "punjab-punjab-police-si-en",
+    "name": "Punjab Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.punjabpolicesi.en"
+  },
+  {
+    "id": "punjab-punjab-police-si-pa",
+    "name": "Punjab Police SI (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.punjabpolicesi.pa"
+  },
+  {
+    "id": "punjab-punjab-patwari-en",
+    "name": "Punjab Patwari",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.punjabpatwari.en"
+  },
+  {
+    "id": "punjab-punjab-patwari-pa",
+    "name": "Punjab Patwari (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.punjabpatwari.pa"
+  },
+  {
+    "id": "punjab-punjab-forest-guard-en",
+    "name": "Punjab Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.punjab.punjabforestguard.en"
+  },
+  {
+    "id": "punjab-punjab-forest-guard-pa",
+    "name": "Punjab Forest Guard (Punjabi)",
+    "medium": "Punjabi",
+    "languageCode": "pa",
+    "package": "com.independent.examapps.punjab.punjabforestguard.pa"
+  },
+  {
+    "id": "himachal-pradesh-hp-tet-en",
+    "name": "HP TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.himachalpradesh.hptet.en"
+  },
+  {
+    "id": "himachal-pradesh-hp-tet-hi",
+    "name": "HP TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.himachalpradesh.hptet.hi"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-teacher-recruitment-en",
+    "name": "Himachal Pradesh Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshteacherrecruitment.en"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-teacher-recruitment-hi",
+    "name": "Himachal Pradesh Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshteacherrecruitment.hi"
+  },
+  {
+    "id": "himachal-pradesh-hppsc-hpas-en",
+    "name": "HPPSC HPAS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.himachalpradesh.hppschpas.en"
+  },
+  {
+    "id": "himachal-pradesh-hppsc-hpas-hi",
+    "name": "HPPSC HPAS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.himachalpradesh.hppschpas.hi"
+  },
+  {
+    "id": "himachal-pradesh-hpssc-en",
+    "name": "HPSSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.himachalpradesh.hpssc.en"
+  },
+  {
+    "id": "himachal-pradesh-hpssc-hi",
+    "name": "HPSSC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.himachalpradesh.hpssc.hi"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-police-constable-en",
+    "name": "Himachal Pradesh Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshpoliceconstable.en"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-police-constable-hi",
+    "name": "Himachal Pradesh Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshpoliceconstable.hi"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-police-si-en",
+    "name": "Himachal Pradesh Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshpolicesi.en"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-police-si-hi",
+    "name": "Himachal Pradesh Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshpolicesi.hi"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-forest-guard-en",
+    "name": "Himachal Pradesh Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshforestguard.en"
+  },
+  {
+    "id": "himachal-pradesh-himachal-pradesh-forest-guard-hi",
+    "name": "Himachal Pradesh Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.himachalpradesh.himachalpradeshforestguard.hi"
+  },
+  {
+    "id": "uttarakhand-utet-en",
+    "name": "UTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.utet.en"
+  },
+  {
+    "id": "uttarakhand-utet-hi",
+    "name": "UTET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.utet.hi"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-teacher-recruitment-en",
+    "name": "Uttarakhand Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandteacherrecruitment.en"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-teacher-recruitment-hi",
+    "name": "Uttarakhand Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandteacherrecruitment.hi"
+  },
+  {
+    "id": "uttarakhand-ukpsc-pcs-en",
+    "name": "UKPSC PCS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.ukpscpcs.en"
+  },
+  {
+    "id": "uttarakhand-ukpsc-pcs-hi",
+    "name": "UKPSC PCS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.ukpscpcs.hi"
+  },
+  {
+    "id": "uttarakhand-uksssc-en",
+    "name": "UKSSSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.uksssc.en"
+  },
+  {
+    "id": "uttarakhand-uksssc-hi",
+    "name": "UKSSSC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.uksssc.hi"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-police-constable-en",
+    "name": "Uttarakhand Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandpoliceconstable.en"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-police-constable-hi",
+    "name": "Uttarakhand Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandpoliceconstable.hi"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-police-si-en",
+    "name": "Uttarakhand Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandpolicesi.en"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-police-si-hi",
+    "name": "Uttarakhand Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandpolicesi.hi"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-patwari-en",
+    "name": "Uttarakhand Patwari",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandpatwari.en"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-patwari-hi",
+    "name": "Uttarakhand Patwari (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandpatwari.hi"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-lekhpal-en",
+    "name": "Uttarakhand Lekhpal",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandlekhpal.en"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-lekhpal-hi",
+    "name": "Uttarakhand Lekhpal (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandlekhpal.hi"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-forest-guard-en",
+    "name": "Uttarakhand Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandforestguard.en"
+  },
+  {
+    "id": "uttarakhand-uttarakhand-forest-guard-hi",
+    "name": "Uttarakhand Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.uttarakhand.uttarakhandforestguard.hi"
+  },
+  {
+    "id": "goa-goa-tet-en",
+    "name": "Goa TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.goa.goatet.en"
+  },
+  {
+    "id": "goa-goa-tet-mr",
+    "name": "Goa TET (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.goa.goatet.mr"
+  },
+  {
+    "id": "goa-goa-teacher-recruitment-en",
+    "name": "Goa Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.goa.goateacherrecruitment.en"
+  },
+  {
+    "id": "goa-goa-teacher-recruitment-mr",
+    "name": "Goa Teacher Recruitment (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.goa.goateacherrecruitment.mr"
+  },
+  {
+    "id": "goa-gpsc-en",
+    "name": "GPSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.goa.gpsc.en"
+  },
+  {
+    "id": "goa-gpsc-mr",
+    "name": "GPSC (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.goa.gpsc.mr"
+  },
+  {
+    "id": "goa-goa-police-constable-en",
+    "name": "Goa Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.goa.goapoliceconstable.en"
+  },
+  {
+    "id": "goa-goa-police-constable-mr",
+    "name": "Goa Police Constable (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.goa.goapoliceconstable.mr"
+  },
+  {
+    "id": "goa-goa-police-si-en",
+    "name": "Goa Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.goa.goapolicesi.en"
+  },
+  {
+    "id": "goa-goa-police-si-mr",
+    "name": "Goa Police SI (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.goa.goapolicesi.mr"
+  },
+  {
+    "id": "goa-goa-forest-guard-en",
+    "name": "Goa Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.goa.goaforestguard.en"
+  },
+  {
+    "id": "goa-goa-forest-guard-mr",
+    "name": "Goa Forest Guard (Marathi)",
+    "medium": "Marathi",
+    "languageCode": "mr",
+    "package": "com.independent.examapps.goa.goaforestguard.mr"
+  },
+  {
+    "id": "assam-assam-tet-en",
+    "name": "Assam TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.assamtet.en"
+  },
+  {
+    "id": "assam-assam-tet-as",
+    "name": "Assam TET (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.assamtet.as"
+  },
+  {
+    "id": "assam-assam-teacher-recruitment-en",
+    "name": "Assam Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.assamteacherrecruitment.en"
+  },
+  {
+    "id": "assam-assam-teacher-recruitment-as",
+    "name": "Assam Teacher Recruitment (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.assamteacherrecruitment.as"
+  },
+  {
+    "id": "assam-apsc-cce-en",
+    "name": "APSC CCE",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.apsccce.en"
+  },
+  {
+    "id": "assam-apsc-cce-as",
+    "name": "APSC CCE (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.apsccce.as"
+  },
+  {
+    "id": "assam-assam-direct-recruitment-en",
+    "name": "Assam Direct Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.assamdirectrecruitment.en"
+  },
+  {
+    "id": "assam-assam-direct-recruitment-as",
+    "name": "Assam Direct Recruitment (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.assamdirectrecruitment.as"
+  },
+  {
+    "id": "assam-assam-police-constable-en",
+    "name": "Assam Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.assampoliceconstable.en"
+  },
+  {
+    "id": "assam-assam-police-constable-as",
+    "name": "Assam Police Constable (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.assampoliceconstable.as"
+  },
+  {
+    "id": "assam-assam-police-si-en",
+    "name": "Assam Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.assampolicesi.en"
+  },
+  {
+    "id": "assam-assam-police-si-as",
+    "name": "Assam Police SI (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.assampolicesi.as"
+  },
+  {
+    "id": "assam-assam-forest-guard-en",
+    "name": "Assam Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.assamforestguard.en"
+  },
+  {
+    "id": "assam-assam-forest-guard-as",
+    "name": "Assam Forest Guard (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.assamforestguard.as"
+  },
+  {
+    "id": "assam-assam-forest-ranger-en",
+    "name": "Assam Forest Ranger",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.assam.assamforestranger.en"
+  },
+  {
+    "id": "assam-assam-forest-ranger-as",
+    "name": "Assam Forest Ranger (Assamese)",
+    "medium": "Assamese",
+    "languageCode": "as",
+    "package": "com.independent.examapps.assam.assamforestranger.as"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-tet-en",
+    "name": "Arunachal Pradesh TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshtet.en"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-tet-hi",
+    "name": "Arunachal Pradesh TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshtet.hi"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-teacher-recruitment-en",
+    "name": "Arunachal Pradesh Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshteacherrecruitment.en"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-teacher-recruitment-hi",
+    "name": "Arunachal Pradesh Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshteacherrecruitment.hi"
+  },
+  {
+    "id": "arunachal-pradesh-appsc-civil-services-en",
+    "name": "APPSC Civil Services",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.arunachalpradesh.appsccivilservices.en"
+  },
+  {
+    "id": "arunachal-pradesh-appsc-civil-services-hi",
+    "name": "APPSC Civil Services (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.arunachalpradesh.appsccivilservices.hi"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-police-constable-en",
+    "name": "Arunachal Pradesh Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshpoliceconstable.en"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-police-constable-hi",
+    "name": "Arunachal Pradesh Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshpoliceconstable.hi"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-police-si-en",
+    "name": "Arunachal Pradesh Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshpolicesi.en"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-police-si-hi",
+    "name": "Arunachal Pradesh Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshpolicesi.hi"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-forest-guard-en",
+    "name": "Arunachal Pradesh Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshforestguard.en"
+  },
+  {
+    "id": "arunachal-pradesh-arunachal-pradesh-forest-guard-hi",
+    "name": "Arunachal Pradesh Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.arunachalpradesh.arunachalpradeshforestguard.hi"
+  },
+  {
+    "id": "manipur-manipur-tet-en",
+    "name": "Manipur TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.manipur.manipurtet.en"
+  },
+  {
+    "id": "manipur-manipur-tet-mni",
+    "name": "Manipur TET (Manipuri)",
+    "medium": "Manipuri",
+    "languageCode": "mni",
+    "package": "com.independent.examapps.manipur.manipurtet.mni"
+  },
+  {
+    "id": "manipur-manipur-teacher-recruitment-en",
+    "name": "Manipur Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.manipur.manipurteacherrecruitment.en"
+  },
+  {
+    "id": "manipur-manipur-teacher-recruitment-mni",
+    "name": "Manipur Teacher Recruitment (Manipuri)",
+    "medium": "Manipuri",
+    "languageCode": "mni",
+    "package": "com.independent.examapps.manipur.manipurteacherrecruitment.mni"
+  },
+  {
+    "id": "manipur-manipur-psc-en",
+    "name": "Manipur PSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.manipur.manipurpsc.en"
+  },
+  {
+    "id": "manipur-manipur-psc-mni",
+    "name": "Manipur PSC (Manipuri)",
+    "medium": "Manipuri",
+    "languageCode": "mni",
+    "package": "com.independent.examapps.manipur.manipurpsc.mni"
+  },
+  {
+    "id": "manipur-manipur-police-constable-en",
+    "name": "Manipur Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.manipur.manipurpoliceconstable.en"
+  },
+  {
+    "id": "manipur-manipur-police-constable-mni",
+    "name": "Manipur Police Constable (Manipuri)",
+    "medium": "Manipuri",
+    "languageCode": "mni",
+    "package": "com.independent.examapps.manipur.manipurpoliceconstable.mni"
+  },
+  {
+    "id": "manipur-manipur-police-si-en",
+    "name": "Manipur Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.manipur.manipurpolicesi.en"
+  },
+  {
+    "id": "manipur-manipur-police-si-mni",
+    "name": "Manipur Police SI (Manipuri)",
+    "medium": "Manipuri",
+    "languageCode": "mni",
+    "package": "com.independent.examapps.manipur.manipurpolicesi.mni"
+  },
+  {
+    "id": "manipur-manipur-forest-guard-en",
+    "name": "Manipur Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.manipur.manipurforestguard.en"
+  },
+  {
+    "id": "manipur-manipur-forest-guard-mni",
+    "name": "Manipur Forest Guard (Manipuri)",
+    "medium": "Manipuri",
+    "languageCode": "mni",
+    "package": "com.independent.examapps.manipur.manipurforestguard.mni"
+  },
+  {
+    "id": "meghalaya-meghalaya-tet-en",
+    "name": "Meghalaya TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.meghalaya.meghalayatet.en"
+  },
+  {
+    "id": "meghalaya-meghalaya-tet-hi",
+    "name": "Meghalaya TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.meghalaya.meghalayatet.hi"
+  },
+  {
+    "id": "meghalaya-meghalaya-teacher-recruitment-en",
+    "name": "Meghalaya Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.meghalaya.meghalayateacherrecruitment.en"
+  },
+  {
+    "id": "meghalaya-meghalaya-teacher-recruitment-hi",
+    "name": "Meghalaya Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.meghalaya.meghalayateacherrecruitment.hi"
+  },
+  {
+    "id": "meghalaya-meghalaya-psc-en",
+    "name": "Meghalaya PSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.meghalaya.meghalayapsc.en"
+  },
+  {
+    "id": "meghalaya-meghalaya-psc-hi",
+    "name": "Meghalaya PSC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.meghalaya.meghalayapsc.hi"
+  },
+  {
+    "id": "meghalaya-meghalaya-police-constable-en",
+    "name": "Meghalaya Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.meghalaya.meghalayapoliceconstable.en"
+  },
+  {
+    "id": "meghalaya-meghalaya-police-constable-hi",
+    "name": "Meghalaya Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.meghalaya.meghalayapoliceconstable.hi"
+  },
+  {
+    "id": "meghalaya-meghalaya-police-si-en",
+    "name": "Meghalaya Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.meghalaya.meghalayapolicesi.en"
+  },
+  {
+    "id": "meghalaya-meghalaya-police-si-hi",
+    "name": "Meghalaya Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.meghalaya.meghalayapolicesi.hi"
+  },
+  {
+    "id": "meghalaya-meghalaya-forest-guard-en",
+    "name": "Meghalaya Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.meghalaya.meghalayaforestguard.en"
+  },
+  {
+    "id": "meghalaya-meghalaya-forest-guard-hi",
+    "name": "Meghalaya Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.meghalaya.meghalayaforestguard.hi"
+  },
+  {
+    "id": "mizoram-mizoram-tet-en",
+    "name": "Mizoram TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.mizoram.mizoramtet.en"
+  },
+  {
+    "id": "mizoram-mizoram-tet-hi",
+    "name": "Mizoram TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.mizoram.mizoramtet.hi"
+  },
+  {
+    "id": "mizoram-mizoram-teacher-recruitment-en",
+    "name": "Mizoram Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.mizoram.mizoramteacherrecruitment.en"
+  },
+  {
+    "id": "mizoram-mizoram-teacher-recruitment-hi",
+    "name": "Mizoram Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.mizoram.mizoramteacherrecruitment.hi"
+  },
+  {
+    "id": "mizoram-mizoram-psc-en",
+    "name": "Mizoram PSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.mizoram.mizorampsc.en"
+  },
+  {
+    "id": "mizoram-mizoram-psc-hi",
+    "name": "Mizoram PSC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.mizoram.mizorampsc.hi"
+  },
+  {
+    "id": "mizoram-mizoram-police-constable-en",
+    "name": "Mizoram Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.mizoram.mizorampoliceconstable.en"
+  },
+  {
+    "id": "mizoram-mizoram-police-constable-hi",
+    "name": "Mizoram Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.mizoram.mizorampoliceconstable.hi"
+  },
+  {
+    "id": "mizoram-mizoram-police-si-en",
+    "name": "Mizoram Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.mizoram.mizorampolicesi.en"
+  },
+  {
+    "id": "mizoram-mizoram-police-si-hi",
+    "name": "Mizoram Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.mizoram.mizorampolicesi.hi"
+  },
+  {
+    "id": "mizoram-mizoram-forest-guard-en",
+    "name": "Mizoram Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.mizoram.mizoramforestguard.en"
+  },
+  {
+    "id": "mizoram-mizoram-forest-guard-hi",
+    "name": "Mizoram Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.mizoram.mizoramforestguard.hi"
+  },
+  {
+    "id": "nagaland-n-tet-en",
+    "name": "N-TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.nagaland.ntet.en"
+  },
+  {
+    "id": "nagaland-n-tet-hi",
+    "name": "N-TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.nagaland.ntet.hi"
+  },
+  {
+    "id": "nagaland-nagaland-teacher-recruitment-en",
+    "name": "Nagaland Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.nagaland.nagalandteacherrecruitment.en"
+  },
+  {
+    "id": "nagaland-nagaland-teacher-recruitment-hi",
+    "name": "Nagaland Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.nagaland.nagalandteacherrecruitment.hi"
+  },
+  {
+    "id": "nagaland-npsc-en",
+    "name": "NPSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.nagaland.npsc.en"
+  },
+  {
+    "id": "nagaland-npsc-hi",
+    "name": "NPSC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.nagaland.npsc.hi"
+  },
+  {
+    "id": "nagaland-nagaland-police-constable-en",
+    "name": "Nagaland Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.nagaland.nagalandpoliceconstable.en"
+  },
+  {
+    "id": "nagaland-nagaland-police-constable-hi",
+    "name": "Nagaland Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.nagaland.nagalandpoliceconstable.hi"
+  },
+  {
+    "id": "nagaland-nagaland-police-si-en",
+    "name": "Nagaland Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.nagaland.nagalandpolicesi.en"
+  },
+  {
+    "id": "nagaland-nagaland-police-si-hi",
+    "name": "Nagaland Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.nagaland.nagalandpolicesi.hi"
+  },
+  {
+    "id": "nagaland-nagaland-forest-guard-en",
+    "name": "Nagaland Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.nagaland.nagalandforestguard.en"
+  },
+  {
+    "id": "nagaland-nagaland-forest-guard-hi",
+    "name": "Nagaland Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.nagaland.nagalandforestguard.hi"
+  },
+  {
+    "id": "tripura-tripura-tet-en",
+    "name": "Tripura TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tripura.tripuratet.en"
+  },
+  {
+    "id": "tripura-tripura-tet-bn",
+    "name": "Tripura TET (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.tripura.tripuratet.bn"
+  },
+  {
+    "id": "tripura-tripura-teacher-recruitment-en",
+    "name": "Tripura Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tripura.tripurateacherrecruitment.en"
+  },
+  {
+    "id": "tripura-tripura-teacher-recruitment-bn",
+    "name": "Tripura Teacher Recruitment (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.tripura.tripurateacherrecruitment.bn"
+  },
+  {
+    "id": "tripura-tpsc-en",
+    "name": "TPSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tripura.tpsc.en"
+  },
+  {
+    "id": "tripura-tpsc-bn",
+    "name": "TPSC (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.tripura.tpsc.bn"
+  },
+  {
+    "id": "tripura-tripura-police-constable-en",
+    "name": "Tripura Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tripura.tripurapoliceconstable.en"
+  },
+  {
+    "id": "tripura-tripura-police-constable-bn",
+    "name": "Tripura Police Constable (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.tripura.tripurapoliceconstable.bn"
+  },
+  {
+    "id": "tripura-tripura-police-si-en",
+    "name": "Tripura Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tripura.tripurapolicesi.en"
+  },
+  {
+    "id": "tripura-tripura-police-si-bn",
+    "name": "Tripura Police SI (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.tripura.tripurapolicesi.bn"
+  },
+  {
+    "id": "tripura-tripura-forest-guard-en",
+    "name": "Tripura Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.tripura.tripuraforestguard.en"
+  },
+  {
+    "id": "tripura-tripura-forest-guard-bn",
+    "name": "Tripura Forest Guard (Bengali)",
+    "medium": "Bengali",
+    "languageCode": "bn",
+    "package": "com.independent.examapps.tripura.tripuraforestguard.bn"
+  },
+  {
+    "id": "sikkim-sikkim-tet-en",
+    "name": "Sikkim TET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.sikkim.sikkimtet.en"
+  },
+  {
+    "id": "sikkim-sikkim-tet-hi",
+    "name": "Sikkim TET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.sikkim.sikkimtet.hi"
+  },
+  {
+    "id": "sikkim-sikkim-teacher-recruitment-en",
+    "name": "Sikkim Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.sikkim.sikkimteacherrecruitment.en"
+  },
+  {
+    "id": "sikkim-sikkim-teacher-recruitment-hi",
+    "name": "Sikkim Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.sikkim.sikkimteacherrecruitment.hi"
+  },
+  {
+    "id": "sikkim-spsc-en",
+    "name": "SPSC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.sikkim.spsc.en"
+  },
+  {
+    "id": "sikkim-spsc-hi",
+    "name": "SPSC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.sikkim.spsc.hi"
+  },
+  {
+    "id": "sikkim-sikkim-police-constable-en",
+    "name": "Sikkim Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.sikkim.sikkimpoliceconstable.en"
+  },
+  {
+    "id": "sikkim-sikkim-police-constable-hi",
+    "name": "Sikkim Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.sikkim.sikkimpoliceconstable.hi"
+  },
+  {
+    "id": "sikkim-sikkim-police-si-en",
+    "name": "Sikkim Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.sikkim.sikkimpolicesi.en"
+  },
+  {
+    "id": "sikkim-sikkim-police-si-hi",
+    "name": "Sikkim Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.sikkim.sikkimpolicesi.hi"
+  },
+  {
+    "id": "sikkim-sikkim-forest-guard-en",
+    "name": "Sikkim Forest Guard",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.sikkim.sikkimforestguard.en"
+  },
+  {
+    "id": "sikkim-sikkim-forest-guard-hi",
+    "name": "Sikkim Forest Guard (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.sikkim.sikkimforestguard.hi"
+  },
+  {
+    "id": "central-ssc-ssc-cgl-en",
+    "name": "SSC CGL",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.ssccgl.en"
+  },
+  {
+    "id": "central-ssc-ssc-cgl-hi",
+    "name": "SSC CGL (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.ssccgl.hi"
+  },
+  {
+    "id": "central-ssc-ssc-chsl-en",
+    "name": "SSC CHSL",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sscchsl.en"
+  },
+  {
+    "id": "central-ssc-ssc-chsl-hi",
+    "name": "SSC CHSL (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sscchsl.hi"
+  },
+  {
+    "id": "central-ssc-ssc-mts-en",
+    "name": "SSC MTS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sscmts.en"
+  },
+  {
+    "id": "central-ssc-ssc-mts-hi",
+    "name": "SSC MTS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sscmts.hi"
+  },
+  {
+    "id": "central-ssc-ssc-havaldar-en",
+    "name": "SSC Havaldar",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sschavaldar.en"
+  },
+  {
+    "id": "central-ssc-ssc-havaldar-hi",
+    "name": "SSC Havaldar (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sschavaldar.hi"
+  },
+  {
+    "id": "central-ssc-ssc-gd-constable-en",
+    "name": "SSC GD Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sscgdconstable.en"
+  },
+  {
+    "id": "central-ssc-ssc-gd-constable-hi",
+    "name": "SSC GD Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sscgdconstable.hi"
+  },
+  {
+    "id": "central-ssc-ssc-cpo-en",
+    "name": "SSC CPO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.ssccpo.en"
+  },
+  {
+    "id": "central-ssc-ssc-cpo-hi",
+    "name": "SSC CPO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.ssccpo.hi"
+  },
+  {
+    "id": "central-ssc-ssc-je-en",
+    "name": "SSC JE",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sscje.en"
+  },
+  {
+    "id": "central-ssc-ssc-je-hi",
+    "name": "SSC JE (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sscje.hi"
+  },
+  {
+    "id": "central-ssc-ssc-stenographer-grade-c-d-en",
+    "name": "SSC Stenographer Grade C/D",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sscstenographergradecd.en"
+  },
+  {
+    "id": "central-ssc-ssc-stenographer-grade-c-d-hi",
+    "name": "SSC Stenographer Grade C/D (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sscstenographergradecd.hi"
+  },
+  {
+    "id": "central-ssc-ssc-selection-post-en",
+    "name": "SSC Selection Post",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sscselectionpost.en"
+  },
+  {
+    "id": "central-ssc-ssc-selection-post-hi",
+    "name": "SSC Selection Post (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sscselectionpost.hi"
+  },
+  {
+    "id": "central-ssc-ssc-jht-en",
+    "name": "SSC JHT",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.sscjht.en"
+  },
+  {
+    "id": "central-ssc-ssc-jht-hi",
+    "name": "SSC JHT (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.sscjht.hi"
+  },
+  {
+    "id": "central-ssc-ssc-combined-hindi-translators-en",
+    "name": "SSC Combined Hindi Translators",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralssc.ssccombinedhinditranslators.en"
+  },
+  {
+    "id": "central-ssc-ssc-combined-hindi-translators-hi",
+    "name": "SSC Combined Hindi Translators (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralssc.ssccombinedhinditranslators.hi"
+  },
+  {
+    "id": "central-rrb-rrb-ntpc-graduate-en",
+    "name": "RRB NTPC Graduate",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbntpcgraduate.en"
+  },
+  {
+    "id": "central-rrb-rrb-ntpc-graduate-hi",
+    "name": "RRB NTPC Graduate (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbntpcgraduate.hi"
+  },
+  {
+    "id": "central-rrb-rrb-ntpc-undergraduate-en",
+    "name": "RRB NTPC Undergraduate",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbntpcundergraduate.en"
+  },
+  {
+    "id": "central-rrb-rrb-ntpc-undergraduate-hi",
+    "name": "RRB NTPC Undergraduate (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbntpcundergraduate.hi"
+  },
+  {
+    "id": "central-rrb-rrb-group-d-en",
+    "name": "RRB Group D",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbgroupd.en"
+  },
+  {
+    "id": "central-rrb-rrb-group-d-hi",
+    "name": "RRB Group D (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbgroupd.hi"
+  },
+  {
+    "id": "central-rrb-rrb-alp-en",
+    "name": "RRB ALP",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbalp.en"
+  },
+  {
+    "id": "central-rrb-rrb-alp-hi",
+    "name": "RRB ALP (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbalp.hi"
+  },
+  {
+    "id": "central-rrb-rrb-technician-en",
+    "name": "RRB Technician",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbtechnician.en"
+  },
+  {
+    "id": "central-rrb-rrb-technician-hi",
+    "name": "RRB Technician (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbtechnician.hi"
+  },
+  {
+    "id": "central-rrb-rrb-je-en",
+    "name": "RRB JE",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbje.en"
+  },
+  {
+    "id": "central-rrb-rrb-je-hi",
+    "name": "RRB JE (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbje.hi"
+  },
+  {
+    "id": "central-rrb-rpf-constable-en",
+    "name": "RPF Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rpfconstable.en"
+  },
+  {
+    "id": "central-rrb-rpf-constable-hi",
+    "name": "RPF Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rpfconstable.hi"
+  },
+  {
+    "id": "central-rrb-rpf-si-en",
+    "name": "RPF SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rpfsi.en"
+  },
+  {
+    "id": "central-rrb-rpf-si-hi",
+    "name": "RPF SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rpfsi.hi"
+  },
+  {
+    "id": "central-rrb-rrb-paramedical-en",
+    "name": "RRB Paramedical",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbparamedical.en"
+  },
+  {
+    "id": "central-rrb-rrb-paramedical-hi",
+    "name": "RRB Paramedical (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbparamedical.hi"
+  },
+  {
+    "id": "central-rrb-rrb-ministerial-and-isolated-categories-en",
+    "name": "RRB Ministerial & Isolated Categories",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbministerialandisolatedcategories.en"
+  },
+  {
+    "id": "central-rrb-rrb-ministerial-and-isolated-categories-hi",
+    "name": "RRB Ministerial & Isolated Categories (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbministerialandisolatedcategories.hi"
+  },
+  {
+    "id": "central-rrb-rrb-section-controller-en",
+    "name": "RRB Section Controller",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralrrb.rrbsectioncontroller.en"
+  },
+  {
+    "id": "central-rrb-rrb-section-controller-hi",
+    "name": "RRB Section Controller (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralrrb.rrbsectioncontroller.hi"
+  },
+  {
+    "id": "central-upsc-upsc-civil-services-en",
+    "name": "UPSC Civil Services",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upsccivilservices.en"
+  },
+  {
+    "id": "central-upsc-upsc-civil-services-hi",
+    "name": "UPSC Civil Services (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upsccivilservices.hi"
+  },
+  {
+    "id": "central-upsc-upsc-indian-forest-service-en",
+    "name": "UPSC Indian Forest Service",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upscindianforestservice.en"
+  },
+  {
+    "id": "central-upsc-upsc-indian-forest-service-hi",
+    "name": "UPSC Indian Forest Service (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upscindianforestservice.hi"
+  },
+  {
+    "id": "central-upsc-upsc-nda-en",
+    "name": "UPSC NDA",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upscnda.en"
+  },
+  {
+    "id": "central-upsc-upsc-nda-hi",
+    "name": "UPSC NDA (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upscnda.hi"
+  },
+  {
+    "id": "central-upsc-upsc-cds-en",
+    "name": "UPSC CDS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upsccds.en"
+  },
+  {
+    "id": "central-upsc-upsc-cds-hi",
+    "name": "UPSC CDS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upsccds.hi"
+  },
+  {
+    "id": "central-upsc-upsc-capf-en",
+    "name": "UPSC CAPF",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upsccapf.en"
+  },
+  {
+    "id": "central-upsc-upsc-capf-hi",
+    "name": "UPSC CAPF (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upsccapf.hi"
+  },
+  {
+    "id": "central-upsc-upsc-engineering-services-en",
+    "name": "UPSC Engineering Services",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upscengineeringservices.en"
+  },
+  {
+    "id": "central-upsc-upsc-engineering-services-hi",
+    "name": "UPSC Engineering Services (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upscengineeringservices.hi"
+  },
+  {
+    "id": "central-upsc-upsc-combined-medical-services-en",
+    "name": "UPSC Combined Medical Services",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upsccombinedmedicalservices.en"
+  },
+  {
+    "id": "central-upsc-upsc-combined-medical-services-hi",
+    "name": "UPSC Combined Medical Services (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upsccombinedmedicalservices.hi"
+  },
+  {
+    "id": "central-upsc-upsc-combined-geo-scientist-en",
+    "name": "UPSC Combined Geo-Scientist",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upsccombinedgeoscientist.en"
+  },
+  {
+    "id": "central-upsc-upsc-combined-geo-scientist-hi",
+    "name": "UPSC Combined Geo-Scientist (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upsccombinedgeoscientist.hi"
+  },
+  {
+    "id": "central-upsc-upsc-ies-en",
+    "name": "UPSC IES",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upscies.en"
+  },
+  {
+    "id": "central-upsc-upsc-ies-hi",
+    "name": "UPSC IES (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upscies.hi"
+  },
+  {
+    "id": "central-upsc-upsc-iss-en",
+    "name": "UPSC ISS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralupsc.upsciss.en"
+  },
+  {
+    "id": "central-upsc-upsc-iss-hi",
+    "name": "UPSC ISS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralupsc.upsciss.hi"
+  },
+  {
+    "id": "central-central-teaching-ctet-en",
+    "name": "CTET",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralcentralteaching.ctet.en"
+  },
+  {
+    "id": "central-central-teaching-ctet-hi",
+    "name": "CTET (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralcentralteaching.ctet.hi"
+  },
+  {
+    "id": "central-central-teaching-kvs-teacher-recruitment-en",
+    "name": "KVS Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralcentralteaching.kvsteacherrecruitment.en"
+  },
+  {
+    "id": "central-central-teaching-kvs-teacher-recruitment-hi",
+    "name": "KVS Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralcentralteaching.kvsteacherrecruitment.hi"
+  },
+  {
+    "id": "central-central-teaching-nvs-teacher-recruitment-en",
+    "name": "NVS Teacher Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralcentralteaching.nvsteacherrecruitment.en"
+  },
+  {
+    "id": "central-central-teaching-nvs-teacher-recruitment-hi",
+    "name": "NVS Teacher Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralcentralteaching.nvsteacherrecruitment.hi"
+  },
+  {
+    "id": "central-central-teaching-central-prt-en",
+    "name": "Central PRT",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralcentralteaching.centralprt.en"
+  },
+  {
+    "id": "central-central-teaching-central-prt-hi",
+    "name": "Central PRT (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralcentralteaching.centralprt.hi"
+  },
+  {
+    "id": "central-central-teaching-central-tgt-en",
+    "name": "Central TGT",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralcentralteaching.centraltgt.en"
+  },
+  {
+    "id": "central-central-teaching-central-tgt-hi",
+    "name": "Central TGT (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralcentralteaching.centraltgt.hi"
+  },
+  {
+    "id": "central-central-teaching-central-pgt-en",
+    "name": "Central PGT",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralcentralteaching.centralpgt.en"
+  },
+  {
+    "id": "central-central-teaching-central-pgt-hi",
+    "name": "Central PGT (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralcentralteaching.centralpgt.hi"
+  },
+  {
+    "id": "central-banking-ibps-po-en",
+    "name": "IBPS PO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.ibpspo.en"
+  },
+  {
+    "id": "central-banking-ibps-po-hi",
+    "name": "IBPS PO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.ibpspo.hi"
+  },
+  {
+    "id": "central-banking-ibps-clerk-en",
+    "name": "IBPS Clerk",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.ibpsclerk.en"
+  },
+  {
+    "id": "central-banking-ibps-clerk-hi",
+    "name": "IBPS Clerk (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.ibpsclerk.hi"
+  },
+  {
+    "id": "central-banking-ibps-so-en",
+    "name": "IBPS SO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.ibpsso.en"
+  },
+  {
+    "id": "central-banking-ibps-so-hi",
+    "name": "IBPS SO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.ibpsso.hi"
+  },
+  {
+    "id": "central-banking-ibps-rrb-office-assistant-en",
+    "name": "IBPS RRB Office Assistant",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficeassistant.en"
+  },
+  {
+    "id": "central-banking-ibps-rrb-office-assistant-hi",
+    "name": "IBPS RRB Office Assistant (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficeassistant.hi"
+  },
+  {
+    "id": "central-banking-ibps-rrb-officer-i-en",
+    "name": "IBPS RRB Officer I",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficeri.en"
+  },
+  {
+    "id": "central-banking-ibps-rrb-officer-i-hi",
+    "name": "IBPS RRB Officer I (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficeri.hi"
+  },
+  {
+    "id": "central-banking-ibps-rrb-officer-ii-en",
+    "name": "IBPS RRB Officer II",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficerii.en"
+  },
+  {
+    "id": "central-banking-ibps-rrb-officer-ii-hi",
+    "name": "IBPS RRB Officer II (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficerii.hi"
+  },
+  {
+    "id": "central-banking-ibps-rrb-officer-iii-en",
+    "name": "IBPS RRB Officer III",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficeriii.en"
+  },
+  {
+    "id": "central-banking-ibps-rrb-officer-iii-hi",
+    "name": "IBPS RRB Officer III (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.ibpsrrbofficeriii.hi"
+  },
+  {
+    "id": "central-banking-sbi-po-en",
+    "name": "SBI PO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.sbipo.en"
+  },
+  {
+    "id": "central-banking-sbi-po-hi",
+    "name": "SBI PO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.sbipo.hi"
+  },
+  {
+    "id": "central-banking-sbi-clerk-en",
+    "name": "SBI Clerk",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.sbiclerk.en"
+  },
+  {
+    "id": "central-banking-sbi-clerk-hi",
+    "name": "SBI Clerk (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.sbiclerk.hi"
+  },
+  {
+    "id": "central-banking-sbi-so-en",
+    "name": "SBI SO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.sbiso.en"
+  },
+  {
+    "id": "central-banking-sbi-so-hi",
+    "name": "SBI SO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.sbiso.hi"
+  },
+  {
+    "id": "central-banking-rbi-grade-b-en",
+    "name": "RBI Grade B",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.rbigradeb.en"
+  },
+  {
+    "id": "central-banking-rbi-grade-b-hi",
+    "name": "RBI Grade B (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.rbigradeb.hi"
+  },
+  {
+    "id": "central-banking-rbi-assistant-en",
+    "name": "RBI Assistant",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.rbiassistant.en"
+  },
+  {
+    "id": "central-banking-rbi-assistant-hi",
+    "name": "RBI Assistant (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.rbiassistant.hi"
+  },
+  {
+    "id": "central-banking-nabard-grade-a-en",
+    "name": "NABARD Grade A",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.nabardgradea.en"
+  },
+  {
+    "id": "central-banking-nabard-grade-a-hi",
+    "name": "NABARD Grade A (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.nabardgradea.hi"
+  },
+  {
+    "id": "central-banking-nabard-grade-b-en",
+    "name": "NABARD Grade B",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.nabardgradeb.en"
+  },
+  {
+    "id": "central-banking-nabard-grade-b-hi",
+    "name": "NABARD Grade B (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.nabardgradeb.hi"
+  },
+  {
+    "id": "central-banking-sebi-grade-a-en",
+    "name": "SEBI Grade A",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralbanking.sebigradea.en"
+  },
+  {
+    "id": "central-banking-sebi-grade-a-hi",
+    "name": "SEBI Grade A (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralbanking.sebigradea.hi"
+  },
+  {
+    "id": "central-defence-army-agniveer-en",
+    "name": "Army Agniveer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.armyagniveer.en"
+  },
+  {
+    "id": "central-defence-army-agniveer-hi",
+    "name": "Army Agniveer (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.armyagniveer.hi"
+  },
+  {
+    "id": "central-defence-navy-agniveer-en",
+    "name": "Navy Agniveer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.navyagniveer.en"
+  },
+  {
+    "id": "central-defence-navy-agniveer-hi",
+    "name": "Navy Agniveer (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.navyagniveer.hi"
+  },
+  {
+    "id": "central-defence-air-force-agniveer-en",
+    "name": "Air Force Agniveer",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.airforceagniveer.en"
+  },
+  {
+    "id": "central-defence-air-force-agniveer-hi",
+    "name": "Air Force Agniveer (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.airforceagniveer.hi"
+  },
+  {
+    "id": "central-defence-afcat-en",
+    "name": "AFCAT",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.afcat.en"
+  },
+  {
+    "id": "central-defence-afcat-hi",
+    "name": "AFCAT (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.afcat.hi"
+  },
+  {
+    "id": "central-defence-coast-guard-navik-en",
+    "name": "Coast Guard Navik",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.coastguardnavik.en"
+  },
+  {
+    "id": "central-defence-coast-guard-navik-hi",
+    "name": "Coast Guard Navik (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.coastguardnavik.hi"
+  },
+  {
+    "id": "central-defence-coast-guard-yantrik-en",
+    "name": "Coast Guard Yantrik",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.coastguardyantrik.en"
+  },
+  {
+    "id": "central-defence-coast-guard-yantrik-hi",
+    "name": "Coast Guard Yantrik (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.coastguardyantrik.hi"
+  },
+  {
+    "id": "central-defence-nda-en",
+    "name": "NDA",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.nda.en"
+  },
+  {
+    "id": "central-defence-nda-hi",
+    "name": "NDA (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.nda.hi"
+  },
+  {
+    "id": "central-defence-cds-en",
+    "name": "CDS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centraldefence.cds.en"
+  },
+  {
+    "id": "central-defence-cds-hi",
+    "name": "CDS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centraldefence.cds.hi"
+  },
+  {
+    "id": "central-other-central-fci-en",
+    "name": "FCI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.fci.en"
+  },
+  {
+    "id": "central-other-central-fci-hi",
+    "name": "FCI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.fci.hi"
+  },
+  {
+    "id": "central-other-central-epfo-en",
+    "name": "EPFO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.epfo.en"
+  },
+  {
+    "id": "central-other-central-epfo-hi",
+    "name": "EPFO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.epfo.hi"
+  },
+  {
+    "id": "central-other-central-esic-en",
+    "name": "ESIC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.esic.en"
+  },
+  {
+    "id": "central-other-central-esic-hi",
+    "name": "ESIC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.esic.hi"
+  },
+  {
+    "id": "central-other-central-lic-aao-en",
+    "name": "LIC AAO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.licaao.en"
+  },
+  {
+    "id": "central-other-central-lic-aao-hi",
+    "name": "LIC AAO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.licaao.hi"
+  },
+  {
+    "id": "central-other-central-lic-assistant-en",
+    "name": "LIC Assistant",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.licassistant.en"
+  },
+  {
+    "id": "central-other-central-lic-assistant-hi",
+    "name": "LIC Assistant (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.licassistant.hi"
+  },
+  {
+    "id": "central-other-central-india-post-gds-en",
+    "name": "India Post GDS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.indiapostgds.en"
+  },
+  {
+    "id": "central-other-central-india-post-gds-hi",
+    "name": "India Post GDS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.indiapostgds.hi"
+  },
+  {
+    "id": "central-other-central-india-post-mts-en",
+    "name": "India Post MTS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.indiapostmts.en"
+  },
+  {
+    "id": "central-other-central-india-post-mts-hi",
+    "name": "India Post MTS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.indiapostmts.hi"
+  },
+  {
+    "id": "central-other-central-india-post-postman-en",
+    "name": "India Post Postman",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.indiapostpostman.en"
+  },
+  {
+    "id": "central-other-central-india-post-postman-hi",
+    "name": "India Post Postman (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.indiapostpostman.hi"
+  },
+  {
+    "id": "central-other-central-india-post-postal-assistant-en",
+    "name": "India Post Postal Assistant",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.indiapostpostalassistant.en"
+  },
+  {
+    "id": "central-other-central-india-post-postal-assistant-hi",
+    "name": "India Post Postal Assistant (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.indiapostpostalassistant.hi"
+  },
+  {
+    "id": "central-other-central-drdo-en",
+    "name": "DRDO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.drdo.en"
+  },
+  {
+    "id": "central-other-central-drdo-hi",
+    "name": "DRDO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.drdo.hi"
+  },
+  {
+    "id": "central-other-central-isro-en",
+    "name": "ISRO",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.isro.en"
+  },
+  {
+    "id": "central-other-central-isro-hi",
+    "name": "ISRO (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.isro.hi"
+  },
+  {
+    "id": "central-other-central-csir-en",
+    "name": "CSIR",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.csir.en"
+  },
+  {
+    "id": "central-other-central-csir-hi",
+    "name": "CSIR (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.csir.hi"
+  },
+  {
+    "id": "central-other-central-aiims-en",
+    "name": "AIIMS",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.aiims.en"
+  },
+  {
+    "id": "central-other-central-aiims-hi",
+    "name": "AIIMS (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.aiims.hi"
+  },
+  {
+    "id": "central-other-central-icmr-en",
+    "name": "ICMR",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.icmr.en"
+  },
+  {
+    "id": "central-other-central-icmr-hi",
+    "name": "ICMR (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.icmr.hi"
+  },
+  {
+    "id": "central-other-central-nic-en",
+    "name": "NIC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.nic.en"
+  },
+  {
+    "id": "central-other-central-nic-hi",
+    "name": "NIC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.nic.hi"
+  },
+  {
+    "id": "central-other-central-cwc-en",
+    "name": "CWC",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.cwc.en"
+  },
+  {
+    "id": "central-other-central-cwc-hi",
+    "name": "CWC (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.cwc.hi"
+  },
+  {
+    "id": "central-other-central-delhi-police-constable-en",
+    "name": "Delhi Police Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.delhipoliceconstable.en"
+  },
+  {
+    "id": "central-other-central-delhi-police-constable-hi",
+    "name": "Delhi Police Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.delhipoliceconstable.hi"
+  },
+  {
+    "id": "central-other-central-delhi-police-si-en",
+    "name": "Delhi Police SI",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.delhipolicesi.en"
+  },
+  {
+    "id": "central-other-central-delhi-police-si-hi",
+    "name": "Delhi Police SI (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.delhipolicesi.hi"
+  },
+  {
+    "id": "central-other-central-delhi-police-head-constable-en",
+    "name": "Delhi Police Head Constable",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.delhipoliceheadconstable.en"
+  },
+  {
+    "id": "central-other-central-delhi-police-head-constable-hi",
+    "name": "Delhi Police Head Constable (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.delhipoliceheadconstable.hi"
+  },
+  {
+    "id": "central-other-central-cbi-sub-inspector-en",
+    "name": "CBI Sub Inspector",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.cbisubinspector.en"
+  },
+  {
+    "id": "central-other-central-cbi-sub-inspector-hi",
+    "name": "CBI Sub Inspector (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.cbisubinspector.hi"
+  },
+  {
+    "id": "central-other-central-nia-inspector-en",
+    "name": "NIA Inspector",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.niainspector.en"
+  },
+  {
+    "id": "central-other-central-nia-inspector-hi",
+    "name": "NIA Inspector (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.niainspector.hi"
+  },
+  {
+    "id": "central-other-central-fssai-recruitment-en",
+    "name": "FSSAI Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.fssairecruitment.en"
+  },
+  {
+    "id": "central-other-central-fssai-recruitment-hi",
+    "name": "FSSAI Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.fssairecruitment.hi"
+  },
+  {
+    "id": "central-other-central-jipmer-recruitment-en",
+    "name": "JIPMER Recruitment",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.jipmerrecruitment.en"
+  },
+  {
+    "id": "central-other-central-jipmer-recruitment-hi",
+    "name": "JIPMER Recruitment (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.jipmerrecruitment.hi"
+  },
+  {
+    "id": "central-other-central-epfo-ssa-en",
+    "name": "EPFO SSA",
+    "medium": "English",
+    "languageCode": "en",
+    "package": "com.independent.examapps.centralothercentral.epfossa.en"
+  },
+  {
+    "id": "central-other-central-epfo-ssa-hi",
+    "name": "EPFO SSA (Hindi)",
+    "medium": "Hindi",
+    "languageCode": "hi",
+    "package": "com.independent.examapps.centralothercentral.epfossa.hi"
+  }
+]

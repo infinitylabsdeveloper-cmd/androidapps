@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Luminous Sapphire & Vivid Sky Blue Analytical Horizon -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF1D4ED8" />
+                <item android:offset="0.45" android:color="#FF0284C7" />
+                <item android:offset="0.78" android:color="#FF06B6D4" />
+                <item android:offset="1.0" android:color="#FF1E3A8A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Radiant Cyan-Gold Logic Prism Glow (Right) -->
+    <path android:pathData="M715,210m-175,0a175,175 0,1 1,350 0a175,175 0,1 1,-350 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="715"
+                android:centerY="210"
+                android:gradientRadius="175"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#88E0F2FE" />
+                <item android:offset="0.55" android:color="#337DD3FC" />
+                <item android:offset="1.0" android:color="#000284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Geometric Analytical Observatory & Compass Architecture (Right) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M715,235m-110,0a110,110 0,1 1,220 0a110,110 0,1 1,-220 0"
+        android:strokeWidth="4"
+        android:strokeColor="#80BAE6FD" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M715,235m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0"
+        android:strokeWidth="3"
+        android:strokeColor="#99FDE68A" />
+    <!-- Isometric Cube / Analytical Polyhedron -->
+    <path
+        android:fillColor="#4D38BDF8"
+        android:pathData="M715,155 L785,195 L785,275 L715,315 L645,275 L645,195 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#CCF0F9FF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M645,195 L715,235 L785,195 M715,235 L715,315"
+        android:strokeWidth="3"
+        android:strokeColor="#CCFDE68A" />
+
+    <!-- Ascending Data Steps on Horizon -->
+    <path
+        android:fillColor="#800C4A6E"
+        android:pathData="M480,390v-45h36v45z M532,390v-75h36v75z M584,390v-105h36v105z M815,390v-90h36v90z M867,390v-130h36v130z" />
+
+    <!-- Horizon Base -->
+    <path
+        android:fillColor="#D90C4A6E"
+        android:pathData="M0,390h960v150h-960z" />
+    <path
+        android:fillColor="#807DD3FC"
+        android:pathData="M0,390h960v3h-960z" />
+</vector>

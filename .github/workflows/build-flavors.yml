@@ -1,0 +1,272 @@
+name: Multi-App Flavor Build & Mass Deployment
+
+on:
+  push:
+    branches:
+      - main
+      - 'release/**'
+    paths:
+      - 'app/**'
+      - 'gradle/**'
+      - 'build.gradle.kts'
+      - 'version.properties'
+      - '.github/workflows/build-flavors.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'app/**'
+      - 'build.gradle.kts'
+      - 'version.properties'
+  workflow_dispatch:
+    inputs:
+      category_flavor:
+        description: 'App Category Flavor to Build'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - stateExams
+          - centralRailways
+          - banking
+          - ssc
+          - teaching
+          - defense
+          - civilServices
+      tier_flavor:
+        description: 'App Edition / Tier Flavor'
+        required: true
+        default: 'pro'
+        type: choice
+        options:
+          - all
+          - pro
+          - standard
+      build_type:
+        description: 'Build Type (Release / Debug)'
+        required: true
+        default: 'release'
+        type: choice
+        options:
+          - release
+          - debug
+      build_aab:
+        description: 'Build AAB (Android App Bundle for Google Play)'
+        required: true
+        type: boolean
+        default: true
+      build_apk:
+        description: 'Build APK (Universal installable package)'
+        required: true
+        type: boolean
+        default: true
+      custom_app_id:
+        description: 'Optional Custom Tenant ID (e.g. APP001)'
+        required: false
+        default: ''
+        type: string
+      custom_package:
+        description: 'Optional Package Name Override (e.g. com.company.app001)'
+        required: false
+        default: ''
+        type: string
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  determine-matrix:
+    name: Determine Build Matrix
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Generate Flavor Matrix
+        id: set-matrix
+        run: |
+          CATEGORY_INPUT="${{ github.event.inputs.category_flavor || 'all' }}"
+          TIER_INPUT="${{ github.event.inputs.tier_flavor || 'pro' }}"
+
+          # Categories list
+          if [ "$CATEGORY_INPUT" = "all" ]; then
+            CATEGORIES='["stateExams", "centralRailways", "banking", "ssc", "teaching", "defense", "civilServices"]'
+          else
+            CATEGORIES='["'"$CATEGORY_INPUT"'"]'
+          fi
+
+          # Tiers list
+          if [ "$TIER_INPUT" = "all" ]; then
+            TIERS='["pro", "standard"]'
+          else
+            TIERS='["'"$TIER_INPUT"'"]'
+          fi
+
+          # Generate JSON matrix
+          MATRIX=$(jq -nc --argjson cat "$CATEGORIES" --argjson tier "$TIERS" '{category: $cat, tier: $tier}')
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+          echo "Computed build matrix: $MATRIX"
+
+  build-flavor-variants:
+    name: Build ${{ matrix.category }} (${{ matrix.tier }})
+    needs: determine-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.determine-matrix.outputs.matrix) }}
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up JDK 17 (Temurin)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          cache-read-only: ${{ github.ref != 'refs/heads/main' }}
+
+      - name: Prepare Keystore Signing
+        id: setup-signing
+        run: |
+          mkdir -p "$HOME/.android"
+          
+          # Setup debug keystore fallback
+          if [ ! -f "debug.keystore" ]; then
+            if [ -f "debug.keystore.base64" ]; then
+              base64 -d debug.keystore.base64 > debug.keystore
+            else
+              keytool -genkeypair -alias androiddebugkey -keypass android -keystore debug.keystore -storepass android -dname "CN=Android Debug,O=Android,C=US" -validity 10000 -keyalg RSA -keysize 2048
+            fi
+          fi
+
+          # Setup upload release keystore if secret exists
+          if [ -n "${{ secrets.KEYSTORE_BASE64 }}" ]; then
+            echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > "$GITHUB_WORKSPACE/my-upload-key.jks"
+            echo "KEYSTORE_PATH=$GITHUB_WORKSPACE/my-upload-key.jks" >> $GITHUB_ENV
+            echo "STORE_PASSWORD=${{ secrets.STORE_PASSWORD }}" >> $GITHUB_ENV
+            echo "KEY_PASSWORD=${{ secrets.KEY_PASSWORD }}" >> $GITHUB_ENV
+            echo "has_release_key=true" >> $GITHUB_OUTPUT
+            echo "Production release keystore configured from GitHub Secrets."
+          else
+            echo "KEYSTORE_PATH=$GITHUB_WORKSPACE/debug.keystore" >> $GITHUB_ENV
+            echo "STORE_PASSWORD=android" >> $GITHUB_ENV
+            echo "KEY_PASSWORD=android" >> $GITHUB_ENV
+            echo "has_release_key=false" >> $GITHUB_OUTPUT
+            echo "Release key secret not configured; using debug signing for build verification."
+          fi
+
+      - name: Capitalize Variant Names
+        id: variant-names
+        run: |
+          CATEGORY="${{ matrix.category }}"
+          TIER="${{ matrix.tier }}"
+          BUILD_TYPE="${{ github.event.inputs.build_type || 'release' }}"
+          
+          # Capitalize first letter of tier
+          TIER_CAP="$(tr '[:lower:]' '[:upper:]' <<< ${TIER:0:1})${TIER:1}"
+          BUILD_TYPE_CAP="$(tr '[:lower:]' '[:upper:]' <<< ${BUILD_TYPE:0:1})${BUILD_TYPE:1}"
+
+          # Combined flavor variant name (e.g. StateExamsProRelease or stateExamsProRelease)
+          VARIANT_NAME="${CATEGORY}${TIER_CAP}${BUILD_TYPE_CAP}"
+          LOWER_VARIANT_NAME="$(tr '[:upper:]' '[:lower:]' <<< ${CATEGORY:0:1})${CATEGORY:1}${TIER_CAP}${BUILD_TYPE_CAP}"
+          
+          echo "variant=$LOWER_VARIANT_NAME" >> $GITHUB_OUTPUT
+          echo "tier_cap=$TIER_CAP" >> $GITHUB_OUTPUT
+          echo "build_type_cap=$BUILD_TYPE_CAP" >> $GITHUB_OUTPUT
+          echo "Target Gradle variant: $LOWER_VARIANT_NAME"
+
+      - name: Build Variant (APK & AAB)
+        id: build-step
+        run: |
+          VARIANT="${{ steps.variant-names.outputs.variant }}"
+          BUILD_TYPE="${{ github.event.inputs.build_type || 'release' }}"
+          BUILD_AAB="${{ github.event.inputs.build_aab != 'false' }}"
+          BUILD_APK="${{ github.event.inputs.build_apk != 'false' }}"
+          CUSTOM_APP_ID="${{ github.event.inputs.custom_app_id || '' }}"
+          CUSTOM_PACKAGE="${{ github.event.inputs.custom_package || '' }}"
+
+          GRADLE_ARGS="-PenableFlavors=true"
+          
+          if [ -n "$CUSTOM_APP_ID" ]; then
+            GRADLE_ARGS="$GRADLE_ARGS -PappId=$CUSTOM_APP_ID -PtenantId=$CUSTOM_APP_ID"
+          fi
+          if [ -n "$CUSTOM_PACKAGE" ]; then
+            GRADLE_ARGS="$GRADLE_ARGS -PappPackage=$CUSTOM_PACKAGE"
+          fi
+
+          TASKS=""
+          if [ "$BUILD_APK" = "true" ]; then
+            TASKS="$TASKS assemble${VARIANT}"
+          fi
+          if [ "$BUILD_AAB" = "true" ] && [ "$BUILD_TYPE" = "release" ]; then
+            TASKS="$TASKS bundle${VARIANT}"
+          fi
+
+          echo "Executing: ./gradlew $TASKS $GRADLE_ARGS"
+          gradle $TASKS $GRADLE_ARGS --stacktrace --no-daemon
+
+      - name: Locate Build Outputs
+        id: find-outputs
+        run: |
+          CATEGORY="${{ matrix.category }}"
+          TIER="${{ matrix.tier }}"
+          
+          mkdir -p dist_artifacts
+          
+          # Copy APKs
+          APK_COUNT=0
+          find app/build/outputs/apk -name "*.apk" -type f | while read -r apk_file; do
+            BASENAME=$(basename "$apk_file")
+            DEST="dist_artifacts/${CATEGORY}_${TIER}_${BASENAME}"
+            cp "$apk_file" "$DEST"
+            echo "Copied APK: $DEST ($(du -h "$DEST" | cut -f1))"
+          done
+          
+          # Copy AAB bundles
+          find app/build/outputs/bundle -name "*.aab" -type f | while read -r aab_file; do
+            BASENAME=$(basename "$aab_file")
+            DEST="dist_artifacts/${CATEGORY}_${TIER}_${BASENAME}"
+            cp "$aab_file" "$DEST"
+            echo "Copied AAB Bundle: $DEST ($(du -h "$DEST" | cut -f1))"
+          done
+          
+          OUTPUT_COUNT=$(ls -1 dist_artifacts | wc -l)
+          echo "output_count=$OUTPUT_COUNT" >> $GITHUB_OUTPUT
+
+      - name: Upload Flavor Artifacts
+        uses: actions/upload-artifact@v4
+        if: steps.find-outputs.outputs.output_count > 0
+        with:
+          name: flavor-${{ matrix.category }}-${{ matrix.tier }}-builds
+          path: dist_artifacts/*
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Generate Job Summary
+        if: always()
+        run: |
+          CATEGORY="${{ matrix.category }}"
+          TIER="${{ matrix.tier }}"
+          STATUS="${{ job.status }}"
+          
+          echo "### 🚀 Flavor Build Summary: \`${CATEGORY}\` (\`${TIER}\`)" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Category Flavor** | \`${CATEGORY}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Tier Flavor** | \`${TIER}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build Result** | ${{ job.status == 'success' && '✅ SUCCESS' || '❌ FAILED' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Signing Config** | ${{ steps.setup-signing.outputs.has_release_key == 'true' && '🔑 Production Release Key' || '⚠️ Debug Key Fallback' }} |" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -d "dist_artifacts" ] && [ "$(ls -A dist_artifacts)" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "#### 📦 Generated Artifacts:" >> $GITHUB_STEP_SUMMARY
+            ls -lh dist_artifacts | awk 'NR>1 {print "- **" $9 "** (" $5 ")"}' >> $GITHUB_STEP_SUMMARY
+          fi

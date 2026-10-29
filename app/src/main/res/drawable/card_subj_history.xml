@@ -1,0 +1,125 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Warm Golden-Amber Sunrise Sky over Indian Heritage Monuments -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFB45309" />
+                <item android:offset="0.38" android:color="#FFD97706" />
+                <item android:offset="0.72" android:color="#FFF59E0B" />
+                <item android:offset="1.0" android:color="#FF92400E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Soft Golden Sun Glow on Right Horizon -->
+    <path android:pathData="M710,150m-190,0a190,190 0,1 1,380 0a190,190 0,1 1,-380 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="710"
+                android:centerY="150"
+                android:gradientRadius="190"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#99FEF3C7" />
+                <item android:offset="0.55" android:color="#44FDE68A" />
+                <item android:offset="1.0" android:color="#00F59E0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bright Morning Sun Disc -->
+    <path
+        android:fillColor="#B3FFFBEB"
+        android:pathData="M710,150m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0" />
+
+    <!-- Distant Sandstone Fort & Hills Silhouette -->
+    <path
+        android:fillColor="#4D78350F"
+        android:pathData="M0,370 L120,335 L220,350 L350,310 L490,340 L610,320 L760,335 L960,305 L960,540 L0,540 Z" />
+
+    <!-- Grand Heritage Monument Complex (Right & Center-Right) -->
+    <!-- Main Temple Gopuram / Palace Tower -->
+    <path
+        android:fillColor="#CC78350F"
+        android:pathData="M620,360 L645,155 L775,155 L800,360 Z" />
+    <!-- Gopuram Stepped Tiers -->
+    <path
+        android:fillColor="#E692400E"
+        android:pathData="M612,320h196v14h-196zM620,280h180v14h-180zM628,240h164v14h-164zM636,200h148v14h-148zM644,162h132v12h-132z" />
+    <!-- Monument Golden Kalash Finials -->
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M665,155 L672,132 L679,155 Z M703,155 L710,126 L717,155 Z M741,155 L748,132 L755,155 Z" />
+
+    <!-- Classical Indo-Saracenic Dome & Arched Pavilion (Center-Right) -->
+    <path
+        android:fillColor="#D978350F"
+        android:pathData="M450,370 L450,245 L595,245 L595,370 Z" />
+    <!-- Grand Central Dome -->
+    <path
+        android:fillColor="#E692400E"
+        android:pathData="M475,245 C475,185 570,185 570,245 Z" />
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M520,198 L522.5,172 L525,198 Z" />
+    <!-- Carved Archways inside Pavilion -->
+    <path
+        android:fillColor="#FF451A03"
+        android:pathData="M472,370 L472,295 C472,272 504,272 504,295 L504,370 Z M512,370 L512,285 C512,260 546,260 546,285 L546,370 Z M554,370 L554,295 C554,272 582,272 582,295 L582,370 Z" />
+
+    <!-- Hampi / Konark Carved Stone Chariot Wheel Motif (Right Foreground) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M835,345m-62,0a62,62 0,1 1,124 0a62,62 0,1 1,-124 0"
+        android:strokeWidth="6"
+        android:strokeColor="#B3FDE68A" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M835,345m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0"
+        android:strokeWidth="3"
+        android:strokeColor="#99FEF3C7" />
+    <path
+        android:fillColor="#B3FDE68A"
+        android:pathData="M835,345m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M835,283 L835,407 M773,345 L897,345 M791,301 L879,389 M879,301 L791,389"
+        android:strokeWidth="3"
+        android:strokeColor="#99FDE68A" />
+
+    <!-- Ashoka Pillar / Ancient Colonnade Silhouette on Left -->
+    <path
+        android:fillColor="#59451A03"
+        android:pathData="M55,390 L63,160 L87,160 L95,390 Z M45,160h60v12h-60z M52,144h46v14h-46z" />
+
+    <!-- Stepped Sandstone Courtyard & Reflecting Pool Base -->
+    <path android:pathData="M0,365h960v175h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="480"
+                android:startY="365"
+                android:endX="480"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#CC78350F" />
+                <item android:offset="0.5" android:color="#E6451A03" />
+                <item android:offset="1.0" android:color="#FF270E02" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Horizon Architectural Trim Line -->
+    <path
+        android:fillColor="#80FDE68A"
+        android:pathData="M0,365h960v3h-960z" />
+</vector>

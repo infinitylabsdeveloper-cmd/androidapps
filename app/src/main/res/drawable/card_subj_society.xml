@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Bright Royal Amethyst & Warm Rose Community Sunset Sky -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF7E22CE" />
+                <item android:offset="0.45" android:color="#FFA855F7" />
+                <item android:offset="0.78" android:color="#FFEC4899" />
+                <item android:offset="1.0" android:color="#FF6B21A8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Sunlit Horizon Glow -->
+    <path android:pathData="M720,160m-170,0a170,170 0,1 1,340 0a170,170 0,1 1,-340 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="720"
+                android:centerY="160"
+                android:gradientRadius="170"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#99FCE7F3" />
+                <item android:offset="0.55" android:color="#44F5D0FE" />
+                <item android:offset="1.0" android:color="#00A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#B3FDF4FF"
+        android:pathData="M720,160m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0" />
+
+    <!-- Scenic Indian Village & Civic Pavilion Skyline (Right-Center) -->
+    <path
+        android:fillColor="#B34A044E"
+        android:pathData="M0,390 L180,355 L360,375 L540,335 L740,360 L960,330 L960,540 L0,540 Z" />
+
+    <!-- Heritage Community Mandapa & Archways -->
+    <path
+        android:fillColor="#D9581C87"
+        android:pathData="M530,385 L530,240 L830,240 L830,385 Z" />
+    <path
+        android:fillColor="#E67E22CE"
+        android:pathData="M515,240 L680,170 L845,240 Z" />
+    <path
+        android:fillColor="#B3FDE68A"
+        android:pathData="M565,385v-95c0,-20 40,-20 40,0v95z M660,385v-105c0,-24 44,-24 44,0v105z M755,385v-95c0,-20 40,-20 40,0v95z" />
+
+    <!-- Ground Terrace -->
+    <path
+        android:fillColor="#E63B0764"
+        android:pathData="M0,385h960v155h-960z" />
+    <path
+        android:fillColor="#80F5D0FE"
+        android:pathData="M0,385h960v3h-960z" />
+</vector>

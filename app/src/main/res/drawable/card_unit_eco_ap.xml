@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Coastal Industrial Corridor & Growth Horizon Sky -->
+    <path
+        android:fillColor="#042F2E"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#0D9488"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#14B8A6"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Industrial Development Sunrise Glow -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.2"
+        android:pathData="M180,80 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0" />
+
+    <!-- Modern High-Tech Industrial Hub & Tech Parks Skyline (Left) -->
+    <path
+        android:fillColor="#134E4A"
+        android:pathData="M30,185 H60 V105 H30 Z M65,185 H95 V85 H65 Z M100,185 H130 V120 H100 Z" />
+    <!-- Illuminated Glass Windows Matrix -->
+    <path
+        android:fillColor="#5EEAD4"
+        android:fillAlpha="0.6"
+        android:pathData="M70,95 H75 V102 H70 Z M85,95 H90 V102 H85 Z M70,110 H75 V117 H70 Z M85,110 H90 V117 H85 Z M70,125 H75 V132 H70 Z M85,125 H90 V132 H85 Z" />
+
+    <!-- Clean Solar Energy Array Panels (Center) -->
+    <path
+        android:fillColor="#0E7490"
+        android:pathData="M145,155 L175,135 L215,135 L185,155 Z" />
+    <path
+        android:strokeColor="#67E8F9"
+        android:strokeWidth="1"
+        android:pathData="M165,145 L195,145 M170,140 L160,150 M190,140 L180,150 M205,140 L195,150" />
+
+    <!-- Multi-lane Express Industrial Corridor Highway (Center Perspective to Foreground) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M165,185 L178,160 H182 L195,185 Z" />
+    <!-- Yellow Divider Road Markings -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="1.5"
+        android:pathData="M180,165 V170 M180,175 V182" />
+
+    <!-- Coastal Port Harbor Crane & Container Terminal (Right) -->
+    <path
+        android:strokeColor="#042F2E"
+        android:strokeWidth="2.5"
+        android:pathData="M270,185 L280,120 L320,105 M285,120 H335" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M285,155 H305 V170 H285 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M310,155 H330 V170 H310 Z" />
+
+    <!-- Base Coastline Highway Ground -->
+    <path
+        android:fillColor="#041E1D"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

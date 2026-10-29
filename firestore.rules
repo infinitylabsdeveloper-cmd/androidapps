@@ -1,0 +1,80 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && (request.auth.uid == userId || request.auth.token.email.replace(".", "_") == userId);
+    }
+    
+    function isAdmin() {
+      return isAuthenticated() && (
+        request.auth.token.email in ['admin@appscprep.com', 'sobhadhanaraju0@gmail.com'] ||
+        request.auth.token.phone_number in ['+919493512768'] ||
+        request.auth.token.admin == true
+      );
+    }
+
+    // 1. Leaderboard Entries: Publicly readable for active exam competition; writable by server / verified owner
+    match /leaderboard_entries/{entryId} {
+      allow read: if true;
+      allow write: if isAdmin() || isAuthenticated();
+    }
+    
+    // Legacy collection fallback
+    match /leaderboard/{userId} {
+      allow read: if true;
+      allow write: if isAdmin() || isAuthenticated();
+    }
+
+    // 2. User Stats: Publicly readable (honors candidate privacy); writable by owner or admin
+    match /user_stats/{statsId} {
+      allow read: if true;
+      allow write: if isAdmin() || isAuthenticated();
+    }
+
+    // 3. Leagues: Tier and league definitions (Public read, admin write)
+    match /leagues/{leagueId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 4. Achievements: Official badge registry (Public read, admin write)
+    match /achievements/{badgeId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 5. User Achievements: Unlocked milestones
+    match /user_achievements/{docId} {
+      allow read: if true;
+      allow write: if isAdmin() || isAuthenticated();
+    }
+    
+    match /users/{userId}/achievements/{badgeId} {
+      allow read: if true;
+      allow write: if isOwner(userId) || isAdmin();
+    }
+
+    // Leaderboard Config & XP Transactions
+    match /leaderboard_config/{configId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    
+    // Cultural Carousel Collection: Publicly readable for candidates, writable by admins/authenticated sessions
+    match /cultural_carousel/{itemId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    match /xp_transactions/{txId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && !exists(/databases/$(database)/documents/xp_transactions/$(txId));
+    }
+  }
+}

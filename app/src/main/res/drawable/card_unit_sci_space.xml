@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Cosmic Space Deep Void Sky -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#1C2541"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#0891B2"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Distant Cosmic Nebula & Stars -->
+    <path
+        android:fillColor="#67E8F9"
+        android:fillAlpha="0.15"
+        android:pathData="M180,75 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M30,40 m-1,0 a1,1 0 1,1 2,0 a1,1 0 1,1 -2,0 M80,25 m-1.5,0 a1.5,1.5 0 1,1 3,0 a1.5,1.5 0 1,1 -3,0 M320,35 m-1,0 a1,1 0 1,1 2,0 a1,1 0 1,1 -2,0 M340,70 m-1,0 a1,1 0 1,1 2,0 a1,1 0 1,1 -2,0" />
+
+    <!-- Crescent Moon / Lunar Exploration Silhouette (Left) -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M60,40 C75,40 85,55 85,70 C75,70 65,55 60,40 Z" />
+
+    <!-- ISRO Rocket Ascending with Exhaust Trail (Center) -->
+    <!-- Flaming Smoke Trail -->
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M176,145 L184,185 L174,190 L172,145 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M175,145 L180,175 L173,178 L173,145 Z" />
+    <!-- White Rocket Fuselage -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M170,145 H178 V80 L174,68 L170,80 Z" />
+    <!-- Red Payload Fairing -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M171,80 L174,68 L177,80 Z" />
+    <!-- Booster Fins -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M166,145 H170 V100 H166 Z M178,145 H182 V100 H178 Z" />
+
+    <!-- Orbiting Satellite (Right) -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M275,65 H290 V80 H275 Z" />
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M245,68 H272 V77 H245 Z M293,68 H320 V77 H293 Z" />
+    <path
+        android:strokeColor="#BAE6FD"
+        android:strokeWidth="1"
+        android:pathData="M254,68 V77 M263,68 V77 M302,68 V77 M311,68 V77" />
+
+    <!-- Sriharikota Launch Facility Horizon -->
+    <path
+        android:fillColor="#060C1B"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

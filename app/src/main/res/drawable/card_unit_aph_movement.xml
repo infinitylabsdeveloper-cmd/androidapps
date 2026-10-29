@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Telugu Renaissance & Linguistic State Dawn Sky -->
+    <path
+        android:fillColor="#3B0716"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#9F1239"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#F43F5E"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Sunrise of Andhra State Formation Glow -->
+    <path
+        android:fillColor="#FDE68A"
+        android:fillAlpha="0.25"
+        android:pathData="M180,75 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <!-- Potti Sreeramulu Immortal Memorial Pillar & Eternal Flame (Center) -->
+    <!-- Memorial Plinth Base -->
+    <path
+        android:fillColor="#1C030A"
+        android:pathData="M160,185 H200 V175 H160 Z" />
+    <path
+        android:fillColor="#2D0512"
+        android:pathData="M165,175 H195 V120 H165 Z" />
+    <!-- Golden Flame Bowl -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M160,120 H200 L195,112 H165 Z" />
+    <!-- Sacrifice Flame (Amarajeevi) -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M180,85 Q172,100 180,112 Q188,100 180,85 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M180,92 Q175,103 180,112 Q185,103 180,92 Z" />
+
+    <!-- Historic Andhra State 1953 Inscription Scroll (Left) -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:fillAlpha="0.75"
+        android:pathData="M50,110 H115 V175 H50 Z" />
+    <!-- Scroll Curled Ends -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M46,108 H119 V113 H46 Z M46,172 H119 V177 H46 Z" />
+    <!-- Telugu Script Text Lines -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M60,125 H105 V128 H60 Z M60,135 H105 V138 H60 Z M60,145 H95 V148 H60 Z M60,155 H105 V158 H60 Z" />
+
+    <!-- Social Reformer Quill & Inkpot Silhouette (Kandukuri Veeresalingam - Right) -->
+    <path
+        android:fillColor="#1C030A"
+        android:pathData="M270,165 H290 V180 H270 Z" />
+    <!-- Quill Feather -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.8"
+        android:pathData="M280,165 Q300,125 315,90 Q305,125 280,165 Z" />
+
+    <!-- Foundation Ground -->
+    <path
+        android:fillColor="#150106"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

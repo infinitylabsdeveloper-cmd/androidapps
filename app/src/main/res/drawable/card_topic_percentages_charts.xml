@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#082F49" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#0369A1" android:fillAlpha="0.7" android:pathData="M0,0h360v110L0,160z" />
+    <!-- Pie Chart with Exploded Highlighted Wedge -->
+    <path android:fillColor="#0284C7" android:pathData="M110,95 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0" />
+    <path android:fillColor="#FBBF24" android:pathData="M115,90 L150,65 A40,40 0 0,0 120,52 Z" />
+    <path android:fillColor="#0C4A6E" android:fillAlpha="0.4" android:pathData="M110,95 L75,115 A40,40 0 0,0 145,115 Z" />
+    <!-- Percent Symbol (%) Badge -->
+    <path android:fillColor="#FDE68A" android:pathData="M50,45 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0 M62,65 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+    <path android:strokeColor="#FDE68A" android:strokeWidth="2.5" android:pathData="M66,42 L46,68" />
+    <!-- Bar Charts (Right) -->
+    <path android:fillColor="#0284C7" android:pathData="M200,135 H216 V175 H200 Z" />
+    <path android:fillColor="#38BDF8" android:pathData="M224,110 H240 V175 H224 Z" />
+    <path android:fillColor="#7DD3FC" android:pathData="M248,85 H264 V175 H248 Z" />
+    <path android:fillColor="#BAE6FD" android:pathData="M272,60 H288 V175 H272 Z" />
+    <!-- Ascending Ratio Curve -->
+    <path android:strokeColor="#FBBF24" android:strokeWidth="3" android:pathData="M190,145 L210,125 L232,100 L256,75 L280,50" />
+    <path android:fillColor="#FBBF24" android:pathData="M280,50 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+    <path android:fillColor="#031D2E" android:pathData="M0,180h360v20h-360z" />
+</vector>

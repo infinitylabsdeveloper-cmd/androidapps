@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#0F172A" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#1E3A8A" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <path android:strokeColor="#60A5FA" android:strokeAlpha="0.4" android:strokeWidth="1.5" android:pathData="M180,85 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" />
+    <!-- Constitution Book with Fundamental Rights Articles 12-35 (Center) -->
+    <path android:fillColor="#172554" android:pathData="M145,85 H215 V175 H145 Z" />
+    <path android:strokeColor="#FBBF24" android:strokeWidth="1.5" android:pathData="M150,90 H210 V170 H150 Z" />
+    <path android:fillColor="#FBBF24" android:pathData="M180,120 m-10,0 a10,10 0 1,1 20,0 a10,10 0 1,1 -20,0" />
+    <path android:fillColor="#FDE68A" android:pathData="M160,145 H200 V148 H160 Z M165,153 H195 V156 H165 Z" />
+    <!-- Golden Scales of Constitutional Remedies (Left) -->
+    <path android:strokeColor="#FBBF24" android:strokeWidth="2" android:pathData="M75,100 V160 M55,115 H95" />
+    <path android:fillColor="#FDE68A" android:fillAlpha="0.7" android:pathData="M50,135 H60 L55,125 Z M90,135 H100 L95,125 Z" />
+    <!-- Ashoka Lion Emblem Watermark (Right) -->
+    <path android:fillColor="#93C5FD" android:fillAlpha="0.3" android:pathData="M280,150 H310 V145 H280 Z M285,145 H305 V125 H285 Z" />
+    <path android:fillColor="#040813" android:pathData="M0,180h360v20h-360z" />
+</vector>

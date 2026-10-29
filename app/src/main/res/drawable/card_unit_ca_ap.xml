@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Andhra Pradesh State Welfare & Development Sky -->
+    <path
+        android:fillColor="#042F2E"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#0F766E"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#14B8A6"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Sunrise Over Godavari River Reservoir Glow -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.25"
+        android:pathData="M180,75 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <!-- Polavaram Mega Irrigation Project Dam & Spillway Gates (Left to Center) -->
+    <!-- Concrete Dam Barrier -->
+    <path
+        android:fillColor="#134E4A"
+        android:pathData="M25,185 H235 V140 H25 Z" />
+    <!-- Spillway Radial Gate Piers -->
+    <path
+        android:fillColor="#042F2E"
+        android:pathData="M35,140 H42 V115 H35 Z M55,140 H62 V115 H55 Z M75,140 H82 V115 H75 Z M95,140 H102 V115 H95 Z M115,140 H122 V115 H115 Z M135,140 H142 V115 H135 Z M155,140 H162 V115 H155 Z M175,140 H182 V115 H175 Z M195,140 H202 V115 H195 Z M215,140 H222 V115 H215 Z" />
+    <!-- Dam Overhead Road Bridge -->
+    <path
+        android:fillColor="#115E59"
+        android:pathData="M20,115 H240 V108 H20 Z" />
+    <!-- Rushing Clear Irrigation Waters Below Dam -->
+    <path
+        android:fillColor="#38BDF8"
+        android:fillAlpha="0.65"
+        android:pathData="M30,185 Q130,170 230,185 L230,200 L30,200 Z" />
+
+    <!-- Amaravati Capital High-Rise & Secretariat Skyline (Right Background) -->
+    <path
+        android:fillColor="#115E59"
+        android:pathData="M255,185 H280 V100 H255 Z M285,185 H310 V80 H285 Z M315,185 H340 V115 H315 Z" />
+    <!-- Spire on Capital Tower -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M296,80 H298 V68 H296 Z" />
+
+    <!-- Navaratnalu Direct Benefit Welfare Shield (Right Foreground) -->
+    <path
+        android:fillColor="#134E4A"
+        android:pathData="M265,130 L295,130 Q295,155 280,170 Q265,155 265,130 Z" />
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="1.5"
+        android:pathData="M267,132 L293,132 Q293,153 280,167 Q267,153 267,132 Z" />
+    <!-- Golden Rupee / Benefit Star in Shield -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M280,146 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+
+    <!-- Godavari River Base Ground -->
+    <path
+        android:fillColor="#041E1D"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Constitutional Law Regal Navy Blue Sky -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#1E3A8A"
+        android:fillAlpha="0.8"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#3B82F6"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Ashoka Chakra Sovereign Radial Glow -->
+    <path
+        android:fillColor="#60A5FA"
+        android:fillAlpha="0.18"
+        android:pathData="M180,85 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+    <path
+        android:strokeColor="#93C5FD"
+        android:strokeAlpha="0.4"
+        android:strokeWidth="1.5"
+        android:pathData="M180,85 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+
+    <!-- Sacred Constitution of India Book (Center) -->
+    <!-- Book Base / Cover -->
+    <path
+        android:fillColor="#172554"
+        android:pathData="M140,80 H220 V175 H140 Z" />
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2"
+        android:pathData="M145,85 H215 V170 H145 Z" />
+    <!-- Embossed Golden Emblem on Cover -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M180,115 m-12,0 a12,12 0 1,1 24,0 a12,12 0 1,1 -24,0" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M180,115 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0" />
+    <!-- Gold Title Bar Lines on Book -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M155,140 H205 V143 H155 Z M160,148 H200 V151 H160 Z M165,156 H195 V159 H165 Z" />
+
+    <!-- Preamble Parchment Scroll (Left) -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:fillAlpha="0.75"
+        android:pathData="M45,100 H105 V165 H45 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M55,115 H95 V118 H55 Z M55,125 H95 V128 H55 Z M55,135 H85 V138 H55 Z M55,145 H95 V148 H55 Z" />
+
+    <!-- Legal Gavel & Pillar of Justice (Right) -->
+    <!-- Gavel Head -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M270,110 H310 V122 H270 Z" />
+    <!-- Gavel Handle -->
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M288,122 H292 V165 H288 Z" />
+    <!-- Sounding Block Base -->
+    <path
+        android:fillColor="#451A03"
+        android:pathData="M260,165 H320 V172 H260 Z" />
+
+    <!-- Base Floor -->
+    <path
+        android:fillColor="#040813"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

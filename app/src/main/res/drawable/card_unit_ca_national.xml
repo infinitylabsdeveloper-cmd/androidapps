@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- National Governance Tricolor Twilight Sky -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#BE123C"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#D97706"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Radiant National Glory Glow -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.25"
+        android:pathData="M180,80 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <!-- India Gate Silhouette (National Memorial & Central Secretariat - Center) -->
+    <!-- Base Plinth -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M140,185 H220 V175 H140 Z" />
+    <!-- Pillars -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M150,175 H166 V110 H150 Z M194,175 H210 V110 H194 Z" />
+    <!-- Grand Archway -->
+    <path
+        android:fillColor="#090E17"
+        android:pathData="M166,175 H194 V130 Q180,118 166,130 Z" />
+    <!-- Cornice & Attic -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M145,110 H215 V100 H145 Z M148,100 H212 V92 H148 Z" />
+    <!-- Amar Jawan Jyoti Memorial Flame -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.9"
+        android:pathData="M180,160 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0" />
+
+    <!-- PM Gati Shakti & Digital India Infrastructure Fiber Optic Arcs (Left) -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="2"
+        android:pathData="M30,160 Q80,110 140,140" />
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="1.5"
+        android:pathData="M40,170 Q90,120 145,150" />
+    <!-- Digital Data Nodes -->
+    <path
+        android:fillColor="#BAE6FD"
+        android:pathData="M30,160 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -3,0 M85,123 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -2.5,0" />
+
+    <!-- National Budget & Policy Document Ribbon (Right) -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:fillAlpha="0.75"
+        android:pathData="M245,110 H305 V165 H245 Z" />
+    <path
+        android:fillColor="#92400E"
+        android:pathData="M255,125 H295 V128 H255 Z M255,135 H295 V138 H255 Z M255,145 H285 V148 H255 Z" />
+
+    <!-- Rajpath Base Ground -->
+    <path
+        android:fillColor="#070B12"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Base -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M54,22L28,32v20c0,18 11.5,30 26,34c14.5,-4 26,-16 26,-34V32L54,22z"/>
+    <!-- Gold Star -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M54,34l4.5,9.1L68.5,44.6l-7.2,7l1.7,10L54,56.8L45,61.6l1.7,-10l-7.2,-7l10,-1.5Z"/>
+</vector>

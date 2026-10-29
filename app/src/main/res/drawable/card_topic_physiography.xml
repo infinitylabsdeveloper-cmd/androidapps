@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#042F2E" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#0F766E" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <!-- Himalayan Snow Peak Ridge -->
+    <path android:fillColor="#115E59" android:pathData="M30,140 L90,55 L150,135 L210,40 L280,140 L340,65 L360,110 L360,200 L0,200 L0,140 Z" />
+    <path android:fillColor="#F0FDFA" android:fillAlpha="0.85" android:pathData="M90,55 L75,80 L105,80 Z M210,40 L192,72 L210,68 L228,72 Z M340,65 L325,90 L355,90 Z" />
+    <!-- Peninsular River Network (Krishna, Godavari, Penna) -->
+    <path android:fillColor="#38BDF8" android:fillAlpha="0.7" android:pathData="M210,135 Q180,150 205,170 Q240,185 160,200 L180,200 Q260,185 225,170 Q200,150 215,135 Z" />
+    <!-- Compass Rose -->
+    <path android:fillColor="#34D399" android:fillAlpha="0.6" android:pathData="M45,35 L48,46 L59,49 L48,52 L45,63 L42,52 L31,49 L42,46 Z" />
+    <path android:fillColor="#022C22" android:pathData="M0,180h360v20h-360z" />
+</vector>

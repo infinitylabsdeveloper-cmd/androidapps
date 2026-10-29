@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Deep Crimson & Breaking News Ruby Base -->
+    <path
+        android:fillColor="#4C0519"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#BE123C"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#E11D48"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- 3D Global Earth Sphere Silhouette with Meridians (Center Background) -->
+    <path
+        android:fillColor="#881337"
+        android:fillAlpha="0.5"
+        android:pathData="M180,85 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" />
+    <!-- Equator and Latitude Ellipses -->
+    <path
+        android:strokeColor="#FDA4AF"
+        android:strokeAlpha="0.45"
+        android:strokeWidth="1.5"
+        android:pathData="M125,85 H235 M132,65 Q180,78 228,65 M132,105 Q180,92 228,105" />
+    <!-- Prime Meridian Curves -->
+    <path
+        android:strokeColor="#FDA4AF"
+        android:strokeAlpha="0.45"
+        android:strokeWidth="1.5"
+        android:pathData="M180,30 V140 M180,30 C155,55 155,115 180,140 M180,30 C205,55 205,115 180,140" />
+
+    <!-- India Gate Silhouette (National Landmark - Left Center Foreground) -->
+    <!-- Base Platform -->
+    <path
+        android:fillColor="#1F020A"
+        android:pathData="M55,190 H125 V180 H55 Z" />
+    <!-- Pillars -->
+    <path
+        android:fillColor="#2B030E"
+        android:pathData="M65,180 H80 V115 H65 Z M100,180 H115 V115 H100 Z" />
+    <!-- Central Grand Archway -->
+    <path
+        android:fillColor="#180108"
+        android:pathData="M80,180 H100 V135 Q90,122 80,135 Z" />
+    <!-- Top Entablature & Cornice -->
+    <path
+        android:fillColor="#3A0514"
+        android:pathData="M60,115 H120 V105 H60 Z M63,105 H117 V97 H63 Z" />
+    <!-- Eternal Flame (Amar Jawan Jyoti) Glow -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.9"
+        android:pathData="M90,165 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+
+    <!-- International Summit Podium & Microphones (Right Foreground) -->
+    <!-- Diplomatic Multilateral Flags Silhouette -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2"
+        android:pathData="M260,120 V165 M280,110 V165 M300,115 V165" />
+    <!-- Pennant Banners -->
+    <path
+        android:fillColor="#38BDF8"
+        android:fillAlpha="0.7"
+        android:pathData="M260,120 L275,127 L260,135 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:fillAlpha="0.7"
+        android:pathData="M280,110 L295,117 L280,125 Z" />
+    <path
+        android:fillColor="#F97316"
+        android:fillAlpha="0.7"
+        android:pathData="M300,115 L315,122 L300,130 Z" />
+
+    <!-- Broadcasting Radio Waves / News Satellite Signals (Top Left) -->
+    <path
+        android:strokeColor="#FDE68A"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="2"
+        android:pathData="M30,30 Q45,45 30,60 M40,20 Q65,45 40,70 M50,10 Q85,45 50,80" />
+
+    <!-- Dynamic Event Ribbon (Bottom Horizon) -->
+    <path
+        android:fillColor="#140106"
+        android:pathData="M0,175 Q90,165 180,175 T360,170 L360,200 L0,200 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.3"
+        android:pathData="M0,185 L360,175 L360,178 L0,188 Z" />
+</vector>

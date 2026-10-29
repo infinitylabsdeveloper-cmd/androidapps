@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Governance Indigo & Democratic Sky -->
+    <path
+        android:fillColor="#0B1329"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#1D4ED8"
+        android:fillAlpha="0.7"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Sansad Bhavan (Parliament) Colonnaded Facade Silhouette (Left to Center) -->
+    <!-- Base Platform -->
+    <path
+        android:fillColor="#070D1B"
+        android:pathData="M30,185 H240 V172 H30 Z" />
+    <!-- Colonnade Pillars -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M45,172 H52 V120 H45 Z M65,172 H72 V120 H65 Z M85,172 H92 V120 H85 Z M105,172 H112 V120 H105 Z M125,172 H132 V120 H125 Z M145,172 H152 V120 H145 Z M165,172 H172 V120 H165 Z M185,172 H192 V120 H185 Z M205,172 H212 V120 H205 Z M225,172 H232 V120 H225 Z" />
+    <!-- Entablature Roof -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M38,120 H238 V112 H38 Z" />
+    <!-- Central Assembly Dome -->
+    <path
+        android:fillColor="#2563EB"
+        android:fillAlpha="0.7"
+        android:pathData="M115,112 C115,80 165,80 165,112 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M138,80 H142 V72 H138 Z" />
+
+    <!-- Panchayati Raj Banyan Tree Emblem (Grassroots Democracy - Right) -->
+    <!-- Banyan Tree Trunk -->
+    <path
+        android:fillColor="#070D1B"
+        android:pathData="M295,185 H305 V140 H295 Z" />
+    <!-- Tree Canopy (Foliage Circles) -->
+    <path
+        android:fillColor="#15803D"
+        android:fillAlpha="0.7"
+        android:pathData="M300,125 m-25,0 a25,25 0 1,1 50,0 a25,25 0 1,1 -50,0" />
+    <path
+        android:fillColor="#16A34A"
+        android:fillAlpha="0.8"
+        android:pathData="M285,120 m-18,0 a18,18 0 1,1 36,0 a18,18 0 1,1 -36,0 M315,120 m-18,0 a18,18 0 1,1 36,0 a18,18 0 1,1 -36,0" />
+
+    <!-- 73rd & 74th Constitutional Amendments Badge Outline -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="1.5"
+        android:pathData="M280,150 H320 V168 H280 Z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M285,158 H315 V160 H285 Z" />
+
+    <!-- Democratic Soil Base -->
+    <path
+        android:fillColor="#03070E"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

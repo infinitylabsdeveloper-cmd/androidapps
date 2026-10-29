@@ -1,0 +1,81 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="960"
+    android:viewportHeight="540">
+
+    <!-- Royal Terracotta & Warm Gold Heritage Sunrise Sky -->
+    <path android:pathData="M0,0h960v540h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="960"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF9A3412" />
+                <item android:offset="0.45" android:color="#FFEA580C" />
+                <item android:offset="0.78" android:color="#FFF59E0B" />
+                <item android:offset="1.0" android:color="#FF7C2D12" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Sunburst Glow Over Amaravati & Kakatiya Monuments -->
+    <path android:pathData="M690,165m-180,0a180,180 0,1 1,360 0a180,180 0,1 1,-360 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="690"
+                android:centerY="165"
+                android:gradientRadius="180"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#99FEF3C7" />
+                <item android:offset="0.55" android:color="#44FDE68A" />
+                <item android:offset="1.0" android:color="#00EA580C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#B3FFFBEB"
+        android:pathData="M690,165m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+
+    <!-- Amaravati Maha Stupa Dome (Right-Center) -->
+    <path
+        android:fillColor="#D97C2D12"
+        android:pathData="M430,380 C430,240 650,240 650,380 Z" />
+    <!-- Stupa Harmika & Chatra Spire -->
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M515,258h50v18h-50z M536,215h8v43h-8z M518,225h44v6h-44z M525,213h30v5h-30z" />
+    <!-- Ayaka Pillars (5 Symbolic Andhra Stupa Pillars) -->
+    <path
+        android:fillColor="#CCFEF3C7"
+        android:pathData="M498,380v-68h8v68z M517,380v-74h8v74z M536,380v-78h8v78z M555,380v-74h8v74z M574,380v-68h8v68z" />
+
+    <!-- Iconic Kakatiya / Lepakshi Stone Torana Archway (Right) -->
+    <path
+        android:fillColor="#E67C2D12"
+        android:pathData="M715,380v-185h22v185z M845,380v-185h22v185z M692,195h192v18h-192z M706,174h164v16h-164z" />
+    <path
+        android:fillColor="#B3FDE68A"
+        android:pathData="M737,213h108v8h-108z M752,174 L765,148 L778,174 Z M804,174 L817,148 L830,174 Z" />
+
+    <!-- Sandstone Heritage Courtyard Base -->
+    <path android:pathData="M0,380h960v160h-960z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="480"
+                android:startY="380"
+                android:endX="480"
+                android:endY="540"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D97C2D12" />
+                <item android:offset="1.0" android:color="#FF431407" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#80FDE68A"
+        android:pathData="M0,380h960v3h-960z" />
+</vector>

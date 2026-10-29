@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Green Ecology & Clean Energy Emerald Atmosphere Sky -->
+    <path
+        android:fillColor="#022C22"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#047857"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#10B981"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Clean Renewable Energy Sun Aura -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.3"
+        android:pathData="M180,75 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <!-- Giant Wind Turbine (Left Center) -->
+    <!-- Mast Tower -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M118,185 L121,80 H123 L126,185 Z" />
+    <!-- Center Rotor Nacelle -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M122,80 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+    <!-- 3 Rotor Blades -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M122,80 L120,40 H124 Z M122,80 L88,100 L90,104 Z M122,80 L156,100 L154,104 Z" />
+
+    <!-- Secondary Wind Turbine (Distant Right) -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M248,175 L250,110 H251 L253,175 Z" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M251,110 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M251,110 L250,80 H252 Z M251,110 L225,125 L226,128 Z M251,110 L277,125 L276,128 Z" />
+
+    <!-- Kurnool Mega Solar Array Grid (Foreground Perspective) -->
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M140,165 L175,145 L225,145 L190,165 Z" />
+    <path
+        android:strokeColor="#7DD3FC"
+        android:strokeWidth="1"
+        android:pathData="M165,155 L200,155 M155,150 L145,160 M175,150 L165,160 M195,150 L185,160 M215,150 L205,160" />
+
+    <!-- Green Ecology Leaf Silhouette (Right Foreground) -->
+    <path
+        android:fillColor="#15803D"
+        android:fillAlpha="0.85"
+        android:pathData="M295,185 C295,150 330,135 330,135 C330,170 295,185 295,185 Z" />
+    <path
+        android:strokeColor="#86EFAC"
+        android:strokeWidth="1"
+        android:pathData="M295,185 Q310,160 330,135" />
+
+    <!-- Green Energy Rolling Landscape Ground -->
+    <path
+        android:fillColor="#011F18"
+        android:pathData="M0,178 Q90,165 180,180 T360,172 L360,200 L0,200 Z" />
+</vector>

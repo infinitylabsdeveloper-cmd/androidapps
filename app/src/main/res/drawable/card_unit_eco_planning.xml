@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Indian Economy & Planning Emerald Sky -->
+    <path
+        android:fillColor="#052E16"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#15803D"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#22C55E"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Macroeconomic Golden Sun Glow -->
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.2"
+        android:pathData="M180,85 m-65,0 a65,65 0 1,1 130,0 a65,65 0 1,1 -130,0" />
+
+    <!-- Reserve Bank of India Financial Architecture (Left) -->
+    <!-- Bank Facade -->
+    <path
+        android:fillColor="#041E0F"
+        android:pathData="M30,185 H150 V172 H30 Z" />
+    <!-- Pillars -->
+    <path
+        android:fillColor="#0A361B"
+        android:pathData="M40,172 H48 V125 H40 Z M60,172 H68 V125 H60 Z M80,172 H88 V125 H80 Z M100,172 H108 V125 H100 Z M120,172 H128 V125 H120 Z M138,172 H144 V125 H138 Z" />
+    <!-- Pediment Triangular Roof -->
+    <path
+        android:fillColor="#052E16"
+        android:pathData="M25,125 H155 V118 H25 Z M25,118 L90,92 L155,118 Z" />
+    <!-- Rupee Medallion -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M90,108 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -5,0" />
+
+    <!-- NITI Aayog Policy Reform Cogwheels (Center-Right) -->
+    <path
+        android:fillColor="#16A34A"
+        android:fillAlpha="0.4"
+        android:pathData="M210,110 m-25,0 a25,25 0 1,1 50,0 a25,25 0 1,1 -50,0" />
+    <path
+        android:fillColor="#052E16"
+        android:pathData="M210,110 m-12,0 a12,12 0 1,1 24,0 a12,12 0 1,1 -24,0" />
+
+    <!-- Five Year Plans Growth Steps & Ascending GDP Graph (Right) -->
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M250,150 H265 V185 H250 Z" />
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M272,130 H287 V185 H272 Z" />
+    <path
+        android:fillColor="#4ADE80"
+        android:pathData="M294,110 H309 V185 H294 Z" />
+    <path
+        android:fillColor="#86EFAC"
+        android:pathData="M316,90 H331 V185 H316 Z" />
+    <!-- Growth Trajectory Curve -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="3"
+        android:pathData="M240,160 L260,140 L280,120 L300,100 L325,75" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M327,72 L316,77 L328,84 Z" />
+
+    <!-- Foundation Ground -->
+    <path
+        android:fillColor="#02150A"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

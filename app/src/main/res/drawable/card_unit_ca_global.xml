@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Global Diplomacy & International Affairs Navy Crimson Sky -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#4338CA"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#BE123C"
+        android:fillAlpha="0.30"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- 3D Global Earth Sphere with Longitude & Latitude Lines (Center) -->
+    <path
+        android:fillColor="#312E81"
+        android:pathData="M180,85 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" />
+    <!-- Global Grid Coordinates -->
+    <path
+        android:strokeColor="#A5B4FC"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="1.5"
+        android:pathData="M125,85 H235 M132,65 Q180,78 228,65 M132,105 Q180,92 228,105" />
+    <path
+        android:strokeColor="#A5B4FC"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="1.5"
+        android:pathData="M180,30 V140 M180,30 C155,55 155,115 180,140 M180,30 C205,55 205,115 180,140" />
+
+    <!-- United Nations Olive Laurel Wreath Silhouette -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeAlpha="0.7"
+        android:strokeWidth="2"
+        android:pathData="M150,135 C135,110 135,60 155,45 M210,135 C225,110 225,60 205,45" />
+
+    <!-- International Summit Multilateral Flags Array (Left & Right) -->
+    <!-- Left Flagpoles -->
+    <path
+        android:strokeColor="#FDE68A"
+        android:strokeWidth="2"
+        android:pathData="M50,110 V165 M70,100 V165 M90,105 V165" />
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M50,110 L65,117 L50,125 Z" />
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M70,100 L85,107 L70,115 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M90,105 L105,112 L90,120 Z" />
+
+    <!-- Right Flagpoles -->
+    <path
+        android:strokeColor="#FDE68A"
+        android:strokeWidth="2"
+        android:pathData="M270,105 V165 M290,100 V165 M310,110 V165" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M270,105 L285,112 L270,120 Z" />
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M290,100 L305,107 L290,115 Z" />
+    <path
+        android:fillColor="#EC4899"
+        android:pathData="M310,110 L325,117 L310,125 Z" />
+
+    <!-- Summit Assembly Floor Base -->
+    <path
+        android:fillColor="#0D0B24"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#082F49" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#0284C7" android:fillAlpha="0.7" android:pathData="M0,0h360v110L0,160z" />
+    <!-- Logic Gate & Cryptographic Matrix Pattern -->
+    <path android:strokeColor="#7DD3FC" android:strokeAlpha="0.35" android:strokeWidth="1.5" android:pathData="M50,80 H120 V120 H50 Z M120,100 H180 M180,70 V130" />
+    <!-- Binary Coding Numbers Stream (0 1 0 1) -->
+    <path android:fillColor="#BAE6FD" android:fillAlpha="0.3" android:pathData="M65,90 H72 V110 H65 Z M85,90 H98 V110 H85 Z M89,95 H94 V105 H89 Z" />
+    <!-- Central Deductive Venn Diagram (Intersecting Luminous Circles) -->
+    <path android:strokeColor="#38BDF8" android:strokeWidth="2.5" android:pathData="M185,100 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+    <path android:strokeColor="#FBBF24" android:strokeWidth="2.5" android:pathData="M225,100 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+    <!-- Intersection Core (Gold) -->
+    <path android:fillColor="#FBBF24" android:fillAlpha="0.4" android:pathData="M205,75 A35,35 0 0,0 205,125 A35,35 0 0,0 205,75 Z" />
+    <!-- Direction Sense Compass Star (Right) -->
+    <path android:fillColor="#FDE68A" android:pathData="M300,75 L303,87 L315,90 L303,93 L300,105 L297,93 L285,90 L297,87 Z" />
+    <path android:fillColor="#041B2D" android:pathData="M0,180h360v20h-360z" />
+</vector>

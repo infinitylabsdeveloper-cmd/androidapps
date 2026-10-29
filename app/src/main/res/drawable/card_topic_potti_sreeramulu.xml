@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#3B0716" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#9F1239" android:fillAlpha="0.7" android:pathData="M0,0h360v110L0,160z" />
+    <!-- Amarajeevi Potti Sreeramulu Sacrifice Flame (Center) -->
+    <path android:fillColor="#1C030A" android:pathData="M165,185 H195 V125 H165 Z" />
+    <path android:fillColor="#F59E0B" android:pathData="M160,125 H200 L195,118 H165 Z" />
+    <path android:fillColor="#EF4444" android:pathData="M180,90 Q173,105 180,118 Q187,105 180,90 Z" />
+    <path android:fillColor="#FDE68A" android:pathData="M180,97 Q176,108 180,118 Q184,108 180,97 Z" />
+    <!-- 1953 Andhra State Scroll (Left) -->
+    <path android:fillColor="#FFFBEB" android:fillAlpha="0.8" android:pathData="M50,110 H115 V175 H50 Z" />
+    <path android:fillColor="#78350F" android:pathData="M60,125 H105 V128 H60 Z M60,135 H105 V138 H60 Z M60,145 H95 V148 H60 Z" />
+    <!-- Kandukuri Veeresalingam Quill & Reform Lamp (Right) -->
+    <path android:fillColor="#FBBF24" android:pathData="M280,160 Q300,120 315,85 Q305,120 280,160 Z" />
+    <path android:fillColor="#150106" android:pathData="M0,180h360v20h-360z" />
+</vector>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Cyber Logic Deep Blue Base -->
+    <path
+        android:fillColor="#082F49"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#0284C7"
+        android:fillAlpha="0.7"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Hexagonal Logic Maze Grid in Background -->
+    <path
+        android:strokeColor="#7DD3FC"
+        android:strokeAlpha="0.35"
+        android:strokeWidth="1.5"
+        android:pathData="M180,50 L200,62 L200,85 L180,97 L160,85 L160,62 Z" />
+    <path
+        android:strokeColor="#7DD3FC"
+        android:strokeAlpha="0.25"
+        android:strokeWidth="1.5"
+        android:pathData="M135,76 L155,88 L155,111 L135,123 L115,111 L115,88 Z" />
+    <path
+        android:strokeColor="#7DD3FC"
+        android:strokeAlpha="0.25"
+        android:strokeWidth="1.5"
+        android:pathData="M225,76 L245,88 L245,111 L225,123 L205,111 L205,88 Z" />
+
+    <!-- Chess Knight Analytical Strategy Piece Silhouette (Center) -->
+    <path
+        android:fillColor="#0C4A6E"
+        android:pathData="M165,185 H195 V175 C195,160 205,150 205,130 C205,115 195,110 185,110 C180,105 175,108 170,115 C165,110 155,120 160,135 C150,140 155,155 165,165 Z" />
+    <!-- Golden Eye of Strategy -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M178,122 m-2.5,0 a2.5,2.5 0 1,1 5,0 a2.5,2.5 0 1,1 -5,0" />
+
+    <!-- Deductive Logic Flow Vectors & Coding Nodes -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2"
+        android:pathData="M70,100 L115,88 M245,88 L290,100" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M70,100 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0 M290,100 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+
+    <!-- Cyber Matrix Floor Base -->
+    <path
+        android:fillColor="#041B2D"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

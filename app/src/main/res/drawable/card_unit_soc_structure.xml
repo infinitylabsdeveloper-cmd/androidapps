@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Society Mandala & Pluralistic Diversity Sky -->
+    <path
+        android:fillColor="#4A044E"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#86198F"
+        android:fillAlpha="0.7"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#C026D3"
+        android:fillAlpha="0.25"
+        android:pathData="M0,60 Q180,10 360,70 L360,200 L0,200 Z" />
+
+    <!-- Sacred Harmony Rings & Geometric Diversity Petals -->
+    <path
+        android:strokeColor="#F0ABFC"
+        android:strokeAlpha="0.35"
+        android:strokeWidth="1.5"
+        android:pathData="M180,85 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0" />
+    <path
+        android:strokeColor="#E879F9"
+        android:strokeAlpha="0.4"
+        android:strokeWidth="1"
+        android:pathData="M180,85 m-35,0 a35,35 0 1,1 70,0 a35,35 0 1,1 -70,0" />
+
+    <!-- Connected Family Kinship Branches Silhouette -->
+    <!-- Tree of Social Roots & Heritage -->
+    <path
+        android:fillColor="#2E0431"
+        android:pathData="M175,175 H185 V125 Q180,100 160,85 L166,80 Q185,95 180,125 Z M180,120 Q195,95 210,82 L216,87 Q200,100 185,120 Z" />
+
+    <!-- Community Silhouettes in Unity (Foreground) -->
+    <path
+        android:fillColor="#240227"
+        android:pathData="M180,125 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -18,0 M168,150 Q180,138 192,150 L192,190 L168,190 Z" />
+    <path
+        android:fillColor="#1B011D"
+        android:pathData="M140,135 m-7,0 a7,7 0 1,1 14,0 a7,7 0 1,1 -14,0 M130,158 Q140,148 150,158 L150,190 L130,190 Z" />
+    <path
+        android:fillColor="#1B011D"
+        android:pathData="M220,135 m-7,0 a7,7 0 1,1 14,0 a7,7 0 1,1 -14,0 M210,158 Q220,148 230,158 L230,190 L210,190 Z" />
+
+    <!-- Solid Pluralistic Ground -->
+    <path
+        android:fillColor="#150117"
+        android:pathData="M0,180h360v20h-360z" />
+</vector>

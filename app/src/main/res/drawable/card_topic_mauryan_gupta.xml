@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+    <path android:fillColor="#3D0C02" android:pathData="M0,0h360v200h-360z" />
+    <path android:fillColor="#881337" android:fillAlpha="0.75" android:pathData="M0,0h360v110L0,160z" />
+    <path android:fillColor="#FBBF24" android:fillAlpha="0.25" android:pathData="M180,75 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0" />
+    <!-- Ashoka Lion Pillar Capital in Golden Age Splendor (Center) -->
+    <path android:fillColor="#240702" android:pathData="M174,185 H186 V100 H174 Z" />
+    <!-- Bell Capital (Inverted Lotus) -->
+    <path android:fillColor="#F59E0B" android:pathData="M168,100 Q180,92 192,100 L188,108 H172 Z" />
+    <!-- Abacus Drum with Dhamma Chakra -->
+    <path android:fillColor="#FBBF24" android:pathData="M164,92 H196 V86 H164 Z" />
+    <path android:fillColor="#78350F" android:pathData="M180,89 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <!-- Lions Sculpture Silhouette -->
+    <path android:fillColor="#FDE68A" android:pathData="M168,86 Q180,68 192,86 Z" />
+    <!-- Gupta Temple Spire / Stupa (Left) -->
+    <path android:fillColor="#240702" android:pathData="M50,185 L65,125 L80,185 Z" />
+    <!-- Rock Edicts of Ashoka (Right) -->
+    <path android:fillColor="#240702" android:pathData="M275,185 L285,135 H315 L325,185 Z" />
+    <path android:fillColor="#FDE68A" android:fillAlpha="0.7" android:pathData="M290,145 H310 V148 H290 Z M290,155 H310 V158 H290 Z M290,165 H305 V168 H290 Z" />
+    <path android:fillColor="#150301" android:pathData="M0,180h360v20h-360z" />
+</vector>

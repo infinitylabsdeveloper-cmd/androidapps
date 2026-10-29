@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="200dp"
+    android:viewportWidth="360"
+    android:viewportHeight="200">
+
+    <!-- Welfare & Empowerment Indigo Amethyst Base -->
+    <path
+        android:fillColor="#3B0764"
+        android:pathData="M0,0h360v200h-360z" />
+    <path
+        android:fillColor="#6B21A8"
+        android:fillAlpha="0.75"
+        android:pathData="M0,0h360v120L0,165z" />
+    <path
+        android:fillColor="#A855F7"
+        android:fillAlpha="0.25"
+        android:pathData="M0,50 Q180,10 360,60 L360,200 L0,200 Z" />
+
+    <!-- Protective Shield Emblem in Center -->
+    <path
+        android:fillColor="#581C87"
+        android:fillAlpha="0.6"
+        android:pathData="M150,55 L210,55 Q210,105 180,135 Q150,105 150,55 Z" />
+    <path
+        android:strokeColor="#E9D5FF"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="2"
+        android:pathData="M152,57 L208,57 Q208,103 180,132 Q152,103 152,57 Z" />
+
+    <!-- Uplifting Hands Holding Education Lamp / Diya inside Shield -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M170,100 L190,100 L185,110 L175,110 Z" />
+    <!-- Flame of Knowledge -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M180,82 Q177,93 180,100 Q183,93 180,82 Z" />
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M180,87 Q178,95 180,100 Q182,95 180,87 Z" />
+
+    <!-- Scales of Social Justice (Right Foreground) -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="2"
+        android:pathData="M290,70 V130 M265,85 H315" />
+    <path
+        android:fillColor="#FBBF24"
+        android:fillAlpha="0.4"
+        android:pathData="M260,105 H270 L265,95 Z M310,105 H320 L315,95 Z" />
+
+    <!-- Protective Community Ground Base -->
+    <path
+        android:fillColor="#1E0538"
+        android:pathData="M0,175 Q90,165 180,178 T360,170 L360,200 L0,200 Z" />
+</vector>
